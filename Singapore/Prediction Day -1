@@ -1,0 +1,2695 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.02 -M 0.1 -N 100 -V 0 -S 0 -E 100 -H 5
+Relation:     Preprocesado.arff
+Instances:    266
+Attributes:   262
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    0.8172408096298532
+    Node 1    -0.0936271491280031
+    Node 2    -0.392686121516474
+    Node 3    -0.6586333621127559
+    Node 4    -0.4565710035005573
+    Node 5    -0.4330280492442049
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.023288246561820325
+    Attrib Province/State=Australian Capital Territory    0.042775397178458824
+    Attrib Province/State=New South Wales    0.0037566088894573817
+    Attrib Province/State=Northern Territory    -0.023207384756743537
+    Attrib Province/State=Queensland    -0.017730542114187564
+    Attrib Province/State=South Australia    -0.03735026337558637
+    Attrib Province/State=Tasmania    0.023281522530910547
+    Attrib Province/State=Victoria    0.043297733545876696
+    Attrib Province/State=Western Australia    -0.013475506086761173
+    Attrib Province/State=Alberta    0.014087080877302868
+    Attrib Province/State=British Columbia    0.0350401550513477
+    Attrib Province/State=Diamond Princess    -0.027582495715906635
+    Attrib Province/State=Grand Princess    0.00775214022805966
+    Attrib Province/State=Manitoba    0.005572532415125287
+    Attrib Province/State=New Brunswick    -0.02219787183963626
+    Attrib Province/State=Newfoundland and Labrador    -0.03544891851387177
+    Attrib Province/State=Northwest Territories    -0.02052596869983638
+    Attrib Province/State=Nova Scotia    0.0370253540744729
+    Attrib Province/State=Ontario    -0.036397945899822384
+    Attrib Province/State=Prince Edward Island    0.004242164794246876
+    Attrib Province/State=Quebec    -0.021925070698726557
+    Attrib Province/State=Saskatchewan    -0.02797466553264351
+    Attrib Province/State=Yukon    0.033354729745156846
+    Attrib Province/State=Anhui    -0.01977830154819348
+    Attrib Province/State=Beijing    -0.022507831431417324
+    Attrib Province/State=Chongqing    -0.045792205329572976
+    Attrib Province/State=Fujian    -0.02097423641391124
+    Attrib Province/State=Gansu    -0.030865706397438613
+    Attrib Province/State=Guangdong    0.010140368475723143
+    Attrib Province/State=Guangxi    0.038907467904023954
+    Attrib Province/State=Guizhou    0.015717171287395172
+    Attrib Province/State=Hainan    0.02249618106562733
+    Attrib Province/State=Hebei    -0.027163680226916335
+    Attrib Province/State=Heilongjiang    0.03083323235300502
+    Attrib Province/State=Henan    -0.03342311717018497
+    Attrib Province/State=Hong Kong    -0.03173375874841516
+    Attrib Province/State=Hubei    0.006703199217965327
+    Attrib Province/State=Hunan    -0.003591331485253713
+    Attrib Province/State=Inner Mongolia    -0.024080557719187445
+    Attrib Province/State=Jiangsu    -0.008055080836690128
+    Attrib Province/State=Jiangxi    0.04144995756472603
+    Attrib Province/State=Jilin    0.031494345277957934
+    Attrib Province/State=Liaoning    -0.013037338013856236
+    Attrib Province/State=Macau    0.012999669418871056
+    Attrib Province/State=Ningxia    -0.018865994448704248
+    Attrib Province/State=Qinghai    -0.01608675072962921
+    Attrib Province/State=Shaanxi    0.014396497130403765
+    Attrib Province/State=Shandong    -0.011394734533732527
+    Attrib Province/State=Shanghai    -0.02824088061785172
+    Attrib Province/State=Shanxi    0.0152688158351038
+    Attrib Province/State=Sichuan    0.01661883016240212
+    Attrib Province/State=Tianjin    0.0494883648835191
+    Attrib Province/State=Tibet    0.018731313066602272
+    Attrib Province/State=Xinjiang    0.01954353843105054
+    Attrib Province/State=Yunnan    -0.03155064079685636
+    Attrib Province/State=Zhejiang    -0.0023687855109552716
+    Attrib Province/State=Faroe Islands    -0.044037156484716115
+    Attrib Province/State=Greenland    0.03435390235733007
+    Attrib Province/State=French Guiana    -0.01592364467942032
+    Attrib Province/State=French Polynesia    -0.0314944877148624
+    Attrib Province/State=Guadeloupe    -0.029546739355440464
+    Attrib Province/State=Martinique    -0.013885509364651232
+    Attrib Province/State=Mayotte    -0.023710727197155404
+    Attrib Province/State=New Caledonia    -0.023713055376286426
+    Attrib Province/State=Reunion    0.04215226458433497
+    Attrib Province/State=Saint Barthelemy    0.02873559020630133
+    Attrib Province/State=Saint Pierre and Miquelon    -0.019491587621225815
+    Attrib Province/State=St Martin    -0.004673883609031183
+    Attrib Province/State=Aruba    -0.04115906196967314
+    Attrib Province/State=Bonaire, Sint Eustatius and Saba    0.0033908639250958285
+    Attrib Province/State=Curacao    0.017633667296078234
+    Attrib Province/State=Sint Maarten    -0.03085384920114097
+    Attrib Province/State=Anguilla    0.028050625584313482
+    Attrib Province/State=Bermuda    0.0017233234349976017
+    Attrib Province/State=British Virgin Islands    0.008945159690782408
+    Attrib Province/State=Cayman Islands    -0.03676190338688438
+    Attrib Province/State=Channel Islands    -0.0021097092743582757
+    Attrib Province/State=Falkland Islands (Malvinas)    0.02955988087521999
+    Attrib Province/State=Gibraltar    0.010057289460852152
+    Attrib Province/State=Isle of Man    -0.049175059561342514
+    Attrib Province/State=Montserrat    0.0326064562896114
+    Attrib Province/State=Turks and Caicos Islands    0.033706002410923995
+    Attrib Country/Region=Afghanistan    0.004800146377729172
+    Attrib Country/Region=Albania    0.02079939961081566
+    Attrib Country/Region=Algeria    -0.005665121503571082
+    Attrib Country/Region=Andorra    -0.03242583476226851
+    Attrib Country/Region=Angola    -0.003220087434667505
+    Attrib Country/Region=Antigua and Barbuda    -0.018277107189766748
+    Attrib Country/Region=Argentina    0.025270302802885603
+    Attrib Country/Region=Armenia    0.044793867409439664
+    Attrib Country/Region=Australia    0.01642439773319173
+    Attrib Country/Region=Austria    -0.003837026561389448
+    Attrib Country/Region=Azerbaijan    -0.044302370918235384
+    Attrib Country/Region=Bahamas    0.03483181694511572
+    Attrib Country/Region=Bahrain    0.03733113347999019
+    Attrib Country/Region=Bangladesh    -0.017389051899064544
+    Attrib Country/Region=Barbados    0.05169529743118754
+    Attrib Country/Region=Belarus    -0.03856109663244569
+    Attrib Country/Region=Belgium    -0.015412609447061442
+    Attrib Country/Region=Belize    -0.0018470633446558136
+    Attrib Country/Region=Benin    -0.025825170707735247
+    Attrib Country/Region=Bhutan    -0.0035132999031269796
+    Attrib Country/Region=Bolivia    -0.033781147354976344
+    Attrib Country/Region=Bosnia and Herzegovina    -0.04202927539464781
+    Attrib Country/Region=Botswana    0.03814562909935033
+    Attrib Country/Region=Brazil    2.447643410152525E-4
+    Attrib Country/Region=Brunei    0.03320490580939541
+    Attrib Country/Region=Bulgaria    0.04325550068351867
+    Attrib Country/Region=Burkina Faso    -0.011833552607570639
+    Attrib Country/Region=Burma    0.011555197469599947
+    Attrib Country/Region=Burundi    -0.022947491514039346
+    Attrib Country/Region=Cabo Verde    0.021975452041194395
+    Attrib Country/Region=Cambodia    0.034583716793259986
+    Attrib Country/Region=Cameroon    0.02015783483578701
+    Attrib Country/Region=Canada    -0.012877741689183911
+    Attrib Country/Region=Central African Republic    0.045945063297637756
+    Attrib Country/Region=Chad    -0.02953383329793225
+    Attrib Country/Region=Chile    0.010763931607890145
+    Attrib Country/Region=China    -0.020584305084675958
+    Attrib Country/Region=Colombia    0.025631434052177725
+    Attrib Country/Region=Comoros    -0.03195378977212414
+    Attrib Country/Region=Congo (Brazzaville)    0.03712732583309447
+    Attrib Country/Region=Congo (Kinshasa)    0.025347503767403447
+    Attrib Country/Region=Costa Rica    -0.013356162523739707
+    Attrib Country/Region=Cote d Ivoire    0.03953424318494973
+    Attrib Country/Region=Croatia    0.006428809639639868
+    Attrib Country/Region=Cuba    0.018347143326135497
+    Attrib Country/Region=Cyprus    3.931717532456971E-4
+    Attrib Country/Region=Czechia    0.00922629938966966
+    Attrib Country/Region=Denmark    0.002098043515521702
+    Attrib Country/Region=Diamond Princess    0.003501147736774789
+    Attrib Country/Region=Djibouti    -0.03483019813713845
+    Attrib Country/Region=Dominica    0.02608610841798379
+    Attrib Country/Region=Dominican Republic    0.033465959752647476
+    Attrib Country/Region=Ecuador    0.0098692378734872
+    Attrib Country/Region=Egypt    -0.03648781882805213
+    Attrib Country/Region=El Salvador    0.027444866772142668
+    Attrib Country/Region=Equatorial Guinea    0.04397659289327685
+    Attrib Country/Region=Eritrea    -0.02759037628680364
+    Attrib Country/Region=Estonia    0.031031138485798245
+    Attrib Country/Region=Eswatini    -0.02752287941120662
+    Attrib Country/Region=Ethiopia    -0.0303541883502068
+    Attrib Country/Region=Fiji    -0.04192764656490927
+    Attrib Country/Region=Finland    0.040350923888274534
+    Attrib Country/Region=France    0.02214952140871404
+    Attrib Country/Region=Gabon    0.031127354939985762
+    Attrib Country/Region=Gambia    -0.00970805728487045
+    Attrib Country/Region=Georgia    -0.04028115853011177
+    Attrib Country/Region=Germany    0.052647602281588025
+    Attrib Country/Region=Ghana    0.009672897372403193
+    Attrib Country/Region=Greece    0.0034624793619438057
+    Attrib Country/Region=Grenada    0.055021378829320934
+    Attrib Country/Region=Guatemala    -0.033888840768992304
+    Attrib Country/Region=Guinea    -0.01606914467794409
+    Attrib Country/Region=Guinea-Bissau    0.015856537260001885
+    Attrib Country/Region=Guyana    0.0048147684786893335
+    Attrib Country/Region=Haiti    0.027184575800457054
+    Attrib Country/Region=Holy See    -0.012843519607376138
+    Attrib Country/Region=Honduras    -0.005451461719827185
+    Attrib Country/Region=Hungary    -0.0402183007022388
+    Attrib Country/Region=Iceland    0.03888673917690254
+    Attrib Country/Region=India    -0.03076761199373806
+    Attrib Country/Region=Indonesia    0.030705462653364646
+    Attrib Country/Region=Iran    0.04397093347199399
+    Attrib Country/Region=Iraq    -0.022455795852453882
+    Attrib Country/Region=Ireland    -0.04299922855898875
+    Attrib Country/Region=Israel    0.037381004610438154
+    Attrib Country/Region=Italy    -0.018047871007768203
+    Attrib Country/Region=Jamaica    0.031102087801456138
+    Attrib Country/Region=Japan    -0.032752780707093754
+    Attrib Country/Region=Jordan    -0.006722366487570883
+    Attrib Country/Region=Kazakhstan    0.003683527422375576
+    Attrib Country/Region=Kenya    -0.009543179430665277
+    Attrib Country/Region=Korea, South    -0.011371792847633339
+    Attrib Country/Region=Kosovo    0.0322325427236955
+    Attrib Country/Region=Kuwait    0.025695254380646942
+    Attrib Country/Region=Kyrgyzstan    0.035463455574360564
+    Attrib Country/Region=Laos    0.039702255995210385
+    Attrib Country/Region=Latvia    -0.027150283650961105
+    Attrib Country/Region=Lebanon    0.021542844269714378
+    Attrib Country/Region=Lesotho    0.04349133357123082
+    Attrib Country/Region=Liberia    0.03828576706299867
+    Attrib Country/Region=Libya    -0.012573019777703918
+    Attrib Country/Region=Liechtenstein    -0.03852334195133206
+    Attrib Country/Region=Lithuania    0.028063753244998404
+    Attrib Country/Region=Luxembourg    0.04158040509662041
+    Attrib Country/Region=MS Zaandam    0.0025139974321226107
+    Attrib Country/Region=Madagascar    -0.001612064564012126
+    Attrib Country/Region=Malawi    -0.0065528287794397976
+    Attrib Country/Region=Malaysia    -0.006712065642379833
+    Attrib Country/Region=Maldives    0.020475375600415863
+    Attrib Country/Region=Mali    -0.008817944048527544
+    Attrib Country/Region=Malta    -0.016461808650877714
+    Attrib Country/Region=Mauritania    0.04895375904387146
+    Attrib Country/Region=Mauritius    0.007862444891143835
+    Attrib Country/Region=Mexico    0.03226991798882273
+    Attrib Country/Region=Moldova    0.011494090120854112
+    Attrib Country/Region=Monaco    -0.0038215118054405342
+    Attrib Country/Region=Mongolia    0.04768722228280779
+    Attrib Country/Region=Montenegro    -0.02915641458698531
+    Attrib Country/Region=Morocco    -0.01453836558029909
+    Attrib Country/Region=Mozambique    0.0189628826611998
+    Attrib Country/Region=Namibia    -0.04485346542277131
+    Attrib Country/Region=Nepal    -0.03784971155328485
+    Attrib Country/Region=Netherlands    1.3733855012842768E-4
+    Attrib Country/Region=New Zealand    0.029099526571325734
+    Attrib Country/Region=Nicaragua    0.001531359029444121
+    Attrib Country/Region=Niger    -0.03533709631727084
+    Attrib Country/Region=Nigeria    -0.012062118987437365
+    Attrib Country/Region=North Macedonia    -0.017519363692116423
+    Attrib Country/Region=Norway    0.01369260647079874
+    Attrib Country/Region=Oman    3.2217808722503064E-4
+    Attrib Country/Region=Pakistan    0.05410616281962756
+    Attrib Country/Region=Panama    -0.025088669620042404
+    Attrib Country/Region=Papua New Guinea    0.0061593108861930385
+    Attrib Country/Region=Paraguay    3.7820683630374134E-4
+    Attrib Country/Region=Peru    0.0372490355011752
+    Attrib Country/Region=Philippines    -0.03352521076871031
+    Attrib Country/Region=Poland    -0.039343057820203406
+    Attrib Country/Region=Portugal    0.006228144033888572
+    Attrib Country/Region=Qatar    -0.033707679122544826
+    Attrib Country/Region=Romania    -0.0014463199939888558
+    Attrib Country/Region=Russia    0.008156062134941367
+    Attrib Country/Region=Rwanda    -0.009085572213712962
+    Attrib Country/Region=Saint Kitts and Nevis    0.01583064788374228
+    Attrib Country/Region=Saint Lucia    -0.015307493280723535
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.010968258102477575
+    Attrib Country/Region=San Marino    0.02110337445278614
+    Attrib Country/Region=Sao Tome and Principe    -0.029919496726989875
+    Attrib Country/Region=Saudi Arabia    0.03369215752339158
+    Attrib Country/Region=Senegal    -0.017052215068233487
+    Attrib Country/Region=Serbia    0.04134652053091671
+    Attrib Country/Region=Seychelles    -0.008792844737159421
+    Attrib Country/Region=Sierra Leone    0.0463953653447631
+    Attrib Country/Region=Singapore    0.009645660367406819
+    Attrib Country/Region=Slovakia    -0.0023933063664931336
+    Attrib Country/Region=Slovenia    0.03545239362687069
+    Attrib Country/Region=Somalia    0.022052444511129848
+    Attrib Country/Region=South Africa    0.026325381644252382
+    Attrib Country/Region=South Sudan    0.04258028814930857
+    Attrib Country/Region=Spain    0.018581135843863603
+    Attrib Country/Region=Sri Lanka    -0.027622722271250164
+    Attrib Country/Region=Sudan    -0.0384439887795633
+    Attrib Country/Region=Suriname    -0.03555919360821408
+    Attrib Country/Region=Sweden    0.02724845193011141
+    Attrib Country/Region=Switzerland    0.0228170891432117
+    Attrib Country/Region=Syria    -0.018486711118027212
+    Attrib Country/Region=Taiwan*    0.025564665286461855
+    Attrib Country/Region=Tajikistan    0.0029474007335753695
+    Attrib Country/Region=Tanzania    -0.04326199873275397
+    Attrib Country/Region=Thailand    -0.025598153093218504
+    Attrib Country/Region=Timor-Leste    -0.0074519006883694274
+    Attrib Country/Region=Togo    0.0432886379027752
+    Attrib Country/Region=Trinidad and Tobago    -0.0018081774598615052
+    Attrib Country/Region=Tunisia    -0.004360903060494366
+    Attrib Country/Region=Turkey    0.02596176129155529
+    Attrib Country/Region=US    0.010339973821430587
+    Attrib Country/Region=Uganda    -0.011041649472349108
+    Attrib Country/Region=Ukraine    0.005615791368628376
+    Attrib Country/Region=United Arab Emirates    0.03473800131087295
+    Attrib Country/Region=United Kingdom    -0.01599187461289305
+    Attrib Country/Region=Uruguay    -0.026041056392451988
+    Attrib Country/Region=Uzbekistan    0.026441733024972287
+    Attrib Country/Region=Venezuela    -0.015009097182189199
+    Attrib Country/Region=Vietnam    -0.019371762800408407
+    Attrib Country/Region=West Bank and Gaza    -0.008397684946178971
+    Attrib Country/Region=Western Sahara    0.011288611203799124
+    Attrib Country/Region=Yemen    -0.02297281090219285
+    Attrib Country/Region=Zambia    -0.03516956581094745
+    Attrib Country/Region=Zimbabwe    -0.02024741650172739
+    Attrib Lat    -0.018645018506581613
+    Attrib Long    0.0019242819058683234
+    Attrib Dia -258    -0.028937068200054664
+    Attrib Dia -257    0.02004474822628068
+    Attrib Dia -256    0.03610594666463935
+    Attrib Dia -255    0.0038981111938690798
+    Attrib Dia -254    -0.009155726607545132
+    Attrib Dia -253    0.04544672172960647
+    Attrib Dia -252    0.025548075622204985
+    Attrib Dia -251    -0.020564856852458235
+    Attrib Dia -250    -0.031464109064991495
+    Attrib Dia -249    -0.019354813345837524
+    Attrib Dia -248    -0.002166649885495201
+    Attrib Dia -247    -0.012146235766888768
+    Attrib Dia -246    0.023568362952071806
+    Attrib Dia -245    -0.044674903497459284
+    Attrib Dia -244    0.011045020374435324
+    Attrib Dia -243    0.03571113585908499
+    Attrib Dia -242    0.02032918228233954
+    Attrib Dia -241    0.005349977063122179
+    Attrib Dia -240    8.289344623501507E-4
+    Attrib Dia -239    0.03831981759312607
+    Attrib Dia -238    0.04420332225270068
+    Attrib Dia -237    -0.03740415259421896
+    Attrib Dia -236    -0.007905811961533152
+    Attrib Dia -235    0.02645957403031849
+    Attrib Dia -234    0.04244927678996199
+    Attrib Dia -233    0.014364608090837994
+    Attrib Dia -232    0.05232371353590754
+    Attrib Dia -231    -0.03336133820640889
+    Attrib Dia -230    7.327949280723221E-4
+    Attrib Dia -229    0.029244808585705655
+    Attrib Dia -228    0.03300446478353452
+    Attrib Dia -227    0.02879655171203143
+    Attrib Dia -226    0.04089801222077778
+    Attrib Dia -225    -0.010104589497018507
+    Attrib Dia -224    0.04948636510517369
+    Attrib Dia -223    -0.01951868254334159
+    Attrib Dia -222    0.043161029540121736
+    Attrib Dia -221    0.044752983269423285
+    Attrib Dia -220    0.006149363547029074
+    Attrib Dia -219    0.009529539870251234
+    Attrib Dia -218    0.016715961848039005
+    Attrib Dia -217    -0.009620072036103024
+    Attrib Dia -216    -0.016268901306667485
+    Attrib Dia -215    -0.02138095617771156
+    Attrib Dia -214    -0.03332339411030334
+    Attrib Dia -213    0.023999702120816927
+    Attrib Dia -212    -0.03129441829260159
+    Attrib Dia -211    -0.005373667095815349
+    Attrib Dia -210    0.03239404155482152
+    Attrib Dia -209    -0.03818345920964644
+    Attrib Dia -208    0.020464777592675794
+    Attrib Dia -207    0.03254400108262424
+    Attrib Dia -206    0.0020294084752511374
+    Attrib Dia -205    0.0024059309174902467
+    Attrib Dia -204    0.04131100938716729
+    Attrib Dia -203    -0.008973841865048513
+    Attrib Dia -202    0.04242472988228635
+    Attrib Dia -201    0.026650429081861344
+    Attrib Dia -200    0.03694635194916653
+    Attrib Dia -199    -0.03396827706835417
+    Attrib Dia -198    0.0165421807000508
+    Attrib Dia -197    -0.03245338144381635
+    Attrib Dia -196    0.0313471931188206
+    Attrib Dia -195    0.03211181624752745
+    Attrib Dia -194    0.013631452271646876
+    Attrib Dia -193    -0.04139230378990081
+    Attrib Dia -192    0.03639457166952758
+    Attrib Dia -191    -0.017817301931072647
+    Attrib Dia -190    0.03595566274507352
+    Attrib Dia -189    0.029510330109099363
+    Attrib Dia -188    0.011141868127582914
+    Attrib Dia -187    -0.01107939470557198
+    Attrib Dia -186    0.02870196085698446
+    Attrib Dia -185    -7.823533296845735E-4
+    Attrib Dia -184    -0.02321855252118607
+    Attrib Dia -183    -0.011387492736662634
+    Attrib Dia -182    -0.034552925461242244
+    Attrib Dia -181    -0.05493647439485
+    Attrib Dia -180    -0.05318078880201418
+    Attrib Dia -179    -0.048080319448085634
+    Attrib Dia -178    0.027543881106871858
+    Attrib Dia -177    -0.02259857957003419
+    Attrib Dia -176    0.014115652572275338
+    Attrib Dia -175    -0.018982437602868392
+    Attrib Dia -174    -0.03155548322197988
+    Attrib Dia -173    0.001950314619885446
+    Attrib Dia -172    0.03144195994988214
+    Attrib Dia -171    0.0042893706727252555
+    Attrib Dia -170    -0.025058422603149055
+    Attrib Dia -169    -0.03178556299984277
+    Attrib Dia -168    -0.03733509307488202
+    Attrib Dia -167    -0.021045185194685165
+    Attrib Dia -166    0.0031246876088138497
+    Attrib Dia -165    -0.028952225344516164
+    Attrib Dia -164    -0.015014520406836922
+    Attrib Dia -163    0.03301056701540463
+    Attrib Dia -162    0.03315127852217689
+    Attrib Dia -161    -0.0336275615852057
+    Attrib Dia -160    -0.026106059260777793
+    Attrib Dia -159    -0.03138642299339877
+    Attrib Dia -158    -0.04661796656185974
+    Attrib Dia -157    -0.016703735502468366
+    Attrib Dia -156    0.0117964839545461
+    Attrib Dia -155    0.02597737241827881
+    Attrib Dia -154    -0.043812599912081716
+    Attrib Dia -153    -0.035815358538658505
+    Attrib Dia -152    0.018956640294341916
+    Attrib Dia -151    -0.04440695141964887
+    Attrib Dia -150    6.715288574648117E-4
+    Attrib Dia -149    0.043489716279403255
+    Attrib Dia -148    0.020121274596166718
+    Attrib Dia -147    -0.02328404829428607
+    Attrib Dia -146    -0.025004703211556203
+    Attrib Dia -145    -0.019924638056070535
+    Attrib Dia -144    0.025118410801099583
+    Attrib Dia -143    0.008598076417652492
+    Attrib Dia -142    -0.027802865859659097
+    Attrib Dia -141    -0.006124867074639126
+    Attrib Dia -140    0.021438247192661738
+    Attrib Dia -139    -0.05542405102166541
+    Attrib Dia -138    -0.0254908774322292
+    Attrib Dia -137    0.018463225828349236
+    Attrib Dia -136    -0.05019574387799951
+    Attrib Dia -135    0.005232536378489547
+    Attrib Dia -134    0.029922649761159936
+    Attrib Dia -133    -0.02782201561876253
+    Attrib Dia -132    -0.0427073821334943
+    Attrib Dia -131    -0.05354086459288564
+    Attrib Dia -130    -0.0072505455308435815
+    Attrib Dia -129    -0.03131522826729927
+    Attrib Dia -128    0.0037548535466538483
+    Attrib Dia -127    0.01985417136190457
+    Attrib Dia -126    -0.0071597876731177195
+    Attrib Dia -125    0.03411063260194984
+    Attrib Dia -124    0.02669688177490855
+    Attrib Dia -123    -0.019245448666902632
+    Attrib Dia -122    -0.004952917493439146
+    Attrib Dia -121    -0.02610383312060265
+    Attrib Dia -120    -0.04354628540973644
+    Attrib Dia -119    0.014551131315416086
+    Attrib Dia -118    0.00752493512040512
+    Attrib Dia -117    0.033114423278124624
+    Attrib Dia -116    0.01014825132874283
+    Attrib Dia -115    0.007909759899753838
+    Attrib Dia -114    0.0014434860111948906
+    Attrib Dia -113    0.02706520476932197
+    Attrib Dia -112    -0.01534706965502118
+    Attrib Dia -111    0.02227627670990208
+    Attrib Dia -110    0.008583916906513098
+    Attrib Dia -109    -0.02253315501833687
+    Attrib Dia -108    0.01343959336430946
+    Attrib Dia -107    0.03914127616205703
+    Attrib Dia -106    -0.028322343512679413
+    Attrib Dia -105    -0.02489894115122299
+    Attrib Dia -104    -0.05182925889625676
+    Attrib Dia -103    0.03470340196184417
+    Attrib Dia -102    0.03504375865850669
+    Attrib Dia -101    0.0086729276633007
+    Attrib Dia -100    -0.02170571033980919
+    Attrib Dia -99    0.007991789791983199
+    Attrib Dia -98    -0.02457207282287326
+    Attrib Dia -97    0.03863620644399647
+    Attrib Dia -96    0.003525291782238264
+    Attrib Dia -95    0.03288558240321596
+    Attrib Dia -94    -0.0068193345790272504
+    Attrib Dia -93    -0.029645667111718472
+    Attrib Dia -92    0.032193734593371055
+    Attrib Dia -91    0.02549769172834287
+    Attrib Dia -90    0.0020396850123970325
+    Attrib Dia -89    -0.021661492764965665
+    Attrib Dia -88    -0.011161187564718969
+    Attrib Dia -87    0.022841664189722995
+    Attrib Dia -86    -0.017635007729393495
+    Attrib Dia -85    -0.038805534788224225
+    Attrib Dia -84    -0.025962050558416355
+    Attrib Dia -83    -0.056263479096649124
+    Attrib Dia -82    -0.012489137454642264
+    Attrib Dia -81    -0.03529861140415799
+    Attrib Dia -80    -0.0588142341361756
+    Attrib Dia -79    -0.03492163593755056
+    Attrib Dia -78    0.024356344767916323
+    Attrib Dia -77    -0.008328087018051924
+    Attrib Dia -76    0.01842949569298991
+    Attrib Dia -75    -0.021096247360834475
+    Attrib Dia -74    -0.03717425807654607
+    Attrib Dia -73    0.03278380475402577
+    Attrib Dia -72    0.030186716080835417
+    Attrib Dia -71    0.010276887842379338
+    Attrib Dia -70    -0.036969463946358326
+    Attrib Dia -69    -0.010886177629228692
+    Attrib Dia -68    -0.05324139625872342
+    Attrib Dia -67    -0.03051816504853287
+    Attrib Dia -66    -0.04739128903856056
+    Attrib Dia -65    0.02943616375809253
+    Attrib Dia -64    0.018455954465328224
+    Attrib Dia -63    -0.020831088308971107
+    Attrib Dia -62    0.024503351465313256
+    Attrib Dia -61    0.019098723316764248
+    Attrib Dia -60    0.03518073861867326
+    Attrib Dia -59    -0.03155505987269213
+    Attrib Dia -58    -0.024189036153637846
+    Attrib Dia -57    -0.0171054242170687
+    Attrib Dia -56    -0.017554576672673256
+    Attrib Dia -55    -0.05083161230105791
+    Attrib Dia -54    -0.04614233697964153
+    Attrib Dia -53    0.018109682179201104
+    Attrib Dia -52    -0.04128889236126257
+    Attrib Dia -51    -0.00351920221942705
+    Attrib Dia -50    0.029116419093493336
+    Attrib Dia -49    -0.04714785354635946
+    Attrib Dia -48    -0.04548409977620427
+    Attrib Dia -47    -0.0636296578469247
+    Attrib Dia -46    -0.029685799557779197
+    Attrib Dia -45    -0.04386664517853338
+    Attrib Dia -44    -0.007716484892518275
+    Attrib Dia -43    0.005458418047212252
+    Attrib Dia -42    -0.045462185251872914
+    Attrib Dia -41    -0.058169107455275405
+    Attrib Dia -40    -0.029533104379543255
+    Attrib Dia -39    -0.015200549369140028
+    Attrib Dia -38    0.005539759310708918
+    Attrib Dia -37    -0.026093693269395285
+    Attrib Dia -36    -0.042702295124605896
+    Attrib Dia -35    0.028621410830282263
+    Attrib Dia -34    0.021738416070806964
+    Attrib Dia -33    -0.024424571667096957
+    Attrib Dia -32    -0.06702443604479795
+    Attrib Dia -31    0.0021665269459910544
+    Attrib Dia -30    0.017482114921051173
+    Attrib Dia -29    -0.03632707087645142
+    Attrib Dia -28    -0.014780754192924217
+    Attrib Dia -27    0.01699815812038207
+    Attrib Dia -26    -0.022497104465726715
+    Attrib Dia -25    -0.017339303377670322
+    Attrib Dia -24    0.024563254718577936
+    Attrib Dia -23    0.0036581418758372167
+    Attrib Dia -22    -0.004955666955155376
+    Attrib Dia -21    -0.012472389138672102
+    Attrib Dia -20    -0.00414761123400973
+    Attrib Dia -19    -0.011480579981889045
+    Attrib Dia -18    -0.05896036342374256
+    Attrib Dia -17    -0.0681493567156193
+    Attrib Dia -16    -0.06810796920834017
+    Attrib Dia -15    -0.04650542425077848
+    Attrib Dia -14    -0.004959159176397913
+    Attrib Dia -13    -0.046978902489218516
+    Attrib Dia -12    0.01212510541430469
+    Attrib Dia -11    -0.06165429996213581
+    Attrib Dia -10    -0.052284554652655434
+    Attrib Dia -9    0.005713254086152228
+    Attrib Dia -8    -0.03761580201448419
+    Attrib Dia -7    0.013130644496714805
+    Attrib Dia -6    -0.02491850815729911
+    Attrib Dia -5    -0.012137792660516766
+    Attrib Dia -4    -0.04238775800695444
+    Attrib Dia -3    -0.013308855560348186
+    Attrib Dia -2    -0.029101795065163045
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.021894304480086224
+    Attrib Province/State=Australian Capital Territory    -0.027314378120093817
+    Attrib Province/State=New South Wales    -0.02006314488090141
+    Attrib Province/State=Northern Territory    -0.041310185921207186
+    Attrib Province/State=Queensland    -0.026337591058077724
+    Attrib Province/State=South Australia    0.018537663277848736
+    Attrib Province/State=Tasmania    0.020879463484261795
+    Attrib Province/State=Victoria    -0.048370207285492475
+    Attrib Province/State=Western Australia    0.012682521963174435
+    Attrib Province/State=Alberta    0.04064373280269186
+    Attrib Province/State=British Columbia    0.017270184795481223
+    Attrib Province/State=Diamond Princess    -0.02617194985810987
+    Attrib Province/State=Grand Princess    0.030559338862424366
+    Attrib Province/State=Manitoba    0.04326381278111472
+    Attrib Province/State=New Brunswick    -0.003563304106218765
+    Attrib Province/State=Newfoundland and Labrador    0.03940041800057985
+    Attrib Province/State=Northwest Territories    -0.025563310194643668
+    Attrib Province/State=Nova Scotia    -0.03872947488951641
+    Attrib Province/State=Ontario    0.04044971655137611
+    Attrib Province/State=Prince Edward Island    0.014474690613253571
+    Attrib Province/State=Quebec    -0.01554033959589226
+    Attrib Province/State=Saskatchewan    0.014018342456541485
+    Attrib Province/State=Yukon    -0.029076523179408603
+    Attrib Province/State=Anhui    0.03707415253828977
+    Attrib Province/State=Beijing    0.003156998002008129
+    Attrib Province/State=Chongqing    -0.014897827794234422
+    Attrib Province/State=Fujian    0.02205716583551533
+    Attrib Province/State=Gansu    -0.035306002803078655
+    Attrib Province/State=Guangdong    0.023965658974648613
+    Attrib Province/State=Guangxi    -0.00482198985414744
+    Attrib Province/State=Guizhou    -0.015569045394872501
+    Attrib Province/State=Hainan    -0.04973194067421851
+    Attrib Province/State=Hebei    -0.033960110276137795
+    Attrib Province/State=Heilongjiang    0.017866129932530513
+    Attrib Province/State=Henan    0.015891499693216096
+    Attrib Province/State=Hong Kong    0.021199519459572356
+    Attrib Province/State=Hubei    -0.0019503866696744775
+    Attrib Province/State=Hunan    -0.00933409117024784
+    Attrib Province/State=Inner Mongolia    0.0022230011667310422
+    Attrib Province/State=Jiangsu    0.03287375557495342
+    Attrib Province/State=Jiangxi    0.014688427503407563
+    Attrib Province/State=Jilin    -0.001850453416700804
+    Attrib Province/State=Liaoning    0.045255785562740555
+    Attrib Province/State=Macau    0.03771841480944984
+    Attrib Province/State=Ningxia    0.006056950658814882
+    Attrib Province/State=Qinghai    -0.030985296465159122
+    Attrib Province/State=Shaanxi    -0.03673239443452796
+    Attrib Province/State=Shandong    0.008572023717416132
+    Attrib Province/State=Shanghai    0.010863900308607018
+    Attrib Province/State=Shanxi    0.011926865133111014
+    Attrib Province/State=Sichuan    0.01942391611923449
+    Attrib Province/State=Tianjin    0.04069265256200282
+    Attrib Province/State=Tibet    -0.005128661442131729
+    Attrib Province/State=Xinjiang    0.022029807551188725
+    Attrib Province/State=Yunnan    0.035871314536403597
+    Attrib Province/State=Zhejiang    0.03116455814387516
+    Attrib Province/State=Faroe Islands    0.024974745174043366
+    Attrib Province/State=Greenland    -0.01157094747151945
+    Attrib Province/State=French Guiana    0.01923287676557042
+    Attrib Province/State=French Polynesia    0.020599834232358723
+    Attrib Province/State=Guadeloupe    0.02662771593102409
+    Attrib Province/State=Martinique    0.019592244410930725
+    Attrib Province/State=Mayotte    -0.04443880075353912
+    Attrib Province/State=New Caledonia    0.013292288108049548
+    Attrib Province/State=Reunion    0.01329779239223471
+    Attrib Province/State=Saint Barthelemy    -0.039667643571681205
+    Attrib Province/State=Saint Pierre and Miquelon    3.4266323858359894E-4
+    Attrib Province/State=St Martin    -0.039030737402824624
+    Attrib Province/State=Aruba    0.002113666626990122
+    Attrib Province/State=Bonaire, Sint Eustatius and Saba    0.014634236524093172
+    Attrib Province/State=Curacao    -0.0035719745865871178
+    Attrib Province/State=Sint Maarten    -0.05033871536668216
+    Attrib Province/State=Anguilla    -0.03732606645094048
+    Attrib Province/State=Bermuda    -0.028158512791484517
+    Attrib Province/State=British Virgin Islands    0.03693811830419335
+    Attrib Province/State=Cayman Islands    0.02068549685401155
+    Attrib Province/State=Channel Islands    -0.03837825680165068
+    Attrib Province/State=Falkland Islands (Malvinas)    0.017231243628591658
+    Attrib Province/State=Gibraltar    -0.039140052179203806
+    Attrib Province/State=Isle of Man    0.009981049421620362
+    Attrib Province/State=Montserrat    0.02235256883451909
+    Attrib Province/State=Turks and Caicos Islands    0.04607722583436565
+    Attrib Country/Region=Afghanistan    0.013579306207162418
+    Attrib Country/Region=Albania    -0.01017108214409031
+    Attrib Country/Region=Algeria    0.011218498903370653
+    Attrib Country/Region=Andorra    0.03521218517971051
+    Attrib Country/Region=Angola    0.03155856234997861
+    Attrib Country/Region=Antigua and Barbuda    0.009664421744407797
+    Attrib Country/Region=Argentina    -0.050569046737839074
+    Attrib Country/Region=Armenia    0.031531211857849975
+    Attrib Country/Region=Australia    -0.02391311928444432
+    Attrib Country/Region=Austria    0.010970871469390703
+    Attrib Country/Region=Azerbaijan    0.023068018649292758
+    Attrib Country/Region=Bahamas    0.04985860228738851
+    Attrib Country/Region=Bahrain    -0.010090873924774922
+    Attrib Country/Region=Bangladesh    -0.029726358318485663
+    Attrib Country/Region=Barbados    -0.026138878829121463
+    Attrib Country/Region=Belarus    0.014496667219877574
+    Attrib Country/Region=Belgium    0.02116774230554254
+    Attrib Country/Region=Belize    0.038860730608440135
+    Attrib Country/Region=Benin    0.037082760643843686
+    Attrib Country/Region=Bhutan    0.061393433357379616
+    Attrib Country/Region=Bolivia    5.219933117639966E-4
+    Attrib Country/Region=Bosnia and Herzegovina    -0.031945403424459416
+    Attrib Country/Region=Botswana    -0.004913271419600359
+    Attrib Country/Region=Brazil    -0.018940571039371978
+    Attrib Country/Region=Brunei    -0.010995268381285167
+    Attrib Country/Region=Bulgaria    -0.03075214671910777
+    Attrib Country/Region=Burkina Faso    -0.029377659999593752
+    Attrib Country/Region=Burma    -0.0038860305207246136
+    Attrib Country/Region=Burundi    0.025186518053031553
+    Attrib Country/Region=Cabo Verde    -0.029520751126806397
+    Attrib Country/Region=Cambodia    0.03525318781623774
+    Attrib Country/Region=Cameroon    0.025104063847640093
+    Attrib Country/Region=Canada    -0.010497148841662132
+    Attrib Country/Region=Central African Republic    -0.026596003363099946
+    Attrib Country/Region=Chad    0.02467992388094646
+    Attrib Country/Region=Chile    0.044068119193846345
+    Attrib Country/Region=China    0.027527661977224106
+    Attrib Country/Region=Colombia    -0.0529827336802284
+    Attrib Country/Region=Comoros    0.06008285251145198
+    Attrib Country/Region=Congo (Brazzaville)    0.0219229876298017
+    Attrib Country/Region=Congo (Kinshasa)    0.04626616906995645
+    Attrib Country/Region=Costa Rica    0.014364090080605355
+    Attrib Country/Region=Cote d Ivoire    0.02591014737587381
+    Attrib Country/Region=Croatia    0.0464071080665559
+    Attrib Country/Region=Cuba    0.0042751084741986245
+    Attrib Country/Region=Cyprus    0.05629015086265376
+    Attrib Country/Region=Czechia    0.045882245585730695
+    Attrib Country/Region=Denmark    0.04574992859642129
+    Attrib Country/Region=Diamond Princess    0.0557532641721848
+    Attrib Country/Region=Djibouti    0.030878286722974223
+    Attrib Country/Region=Dominica    -0.023899122559491913
+    Attrib Country/Region=Dominican Republic    8.598071236951849E-4
+    Attrib Country/Region=Ecuador    -0.008482326639873378
+    Attrib Country/Region=Egypt    0.05356381823446177
+    Attrib Country/Region=El Salvador    0.022231289080327725
+    Attrib Country/Region=Equatorial Guinea    0.06432375168623078
+    Attrib Country/Region=Eritrea    -0.02207490975006949
+    Attrib Country/Region=Estonia    -0.024866197106252447
+    Attrib Country/Region=Eswatini    -0.016888837413598253
+    Attrib Country/Region=Ethiopia    -0.015862607232856082
+    Attrib Country/Region=Fiji    -0.0017480131238128975
+    Attrib Country/Region=Finland    -0.024763913709582027
+    Attrib Country/Region=France    -0.030089897073602247
+    Attrib Country/Region=Gabon    0.04430852981824015
+    Attrib Country/Region=Gambia    -0.019363725720034256
+    Attrib Country/Region=Georgia    -0.02127556672403426
+    Attrib Country/Region=Germany    0.017018066663446553
+    Attrib Country/Region=Ghana    0.02120791484274505
+    Attrib Country/Region=Greece    0.05212708315187669
+    Attrib Country/Region=Grenada    0.0010035068338138929
+    Attrib Country/Region=Guatemala    0.056222815009474535
+    Attrib Country/Region=Guinea    0.004266242257602996
+    Attrib Country/Region=Guinea-Bissau    -0.02916365006157317
+    Attrib Country/Region=Guyana    0.05163594501252836
+    Attrib Country/Region=Haiti    0.05993580491674642
+    Attrib Country/Region=Holy See    0.044146435699513785
+    Attrib Country/Region=Honduras    0.03261439465336181
+    Attrib Country/Region=Hungary    0.006098651952443824
+    Attrib Country/Region=Iceland    -0.0029360065201828526
+    Attrib Country/Region=India    -0.0768962935692681
+    Attrib Country/Region=Indonesia    -0.039276907662046785
+    Attrib Country/Region=Iran    0.03282364703273994
+    Attrib Country/Region=Iraq    -0.005398995594088842
+    Attrib Country/Region=Ireland    -0.03264511453374935
+    Attrib Country/Region=Israel    0.00710323795390617
+    Attrib Country/Region=Italy    0.04546879340317223
+    Attrib Country/Region=Jamaica    0.0330508000901856
+    Attrib Country/Region=Japan    0.05475002174441086
+    Attrib Country/Region=Jordan    0.013701420122727107
+    Attrib Country/Region=Kazakhstan    0.057516262719580276
+    Attrib Country/Region=Kenya    0.033891875579137795
+    Attrib Country/Region=Korea, South    -0.01278342249033738
+    Attrib Country/Region=Kosovo    0.01862166402557719
+    Attrib Country/Region=Kuwait    -0.033377956458445546
+    Attrib Country/Region=Kyrgyzstan    -0.0019284523700845231
+    Attrib Country/Region=Laos    0.024955098519631493
+    Attrib Country/Region=Latvia    -0.0031399042625093613
+    Attrib Country/Region=Lebanon    -0.007380732047829745
+    Attrib Country/Region=Lesotho    0.05672066371931479
+    Attrib Country/Region=Liberia    0.013383790394444095
+    Attrib Country/Region=Libya    0.05228548687669856
+    Attrib Country/Region=Liechtenstein    0.024129046489859855
+    Attrib Country/Region=Lithuania    -0.018048531411132496
+    Attrib Country/Region=Luxembourg    -0.01620485011752538
+    Attrib Country/Region=MS Zaandam    0.04212231365144651
+    Attrib Country/Region=Madagascar    2.869596039307124E-4
+    Attrib Country/Region=Malawi    -6.440125569116531E-4
+    Attrib Country/Region=Malaysia    -0.027572562776680982
+    Attrib Country/Region=Maldives    -0.030580272551719013
+    Attrib Country/Region=Mali    -0.010385136469547043
+    Attrib Country/Region=Malta    0.033494081869465515
+    Attrib Country/Region=Mauritania    -0.015477576732438327
+    Attrib Country/Region=Mauritius    0.0375446665800892
+    Attrib Country/Region=Mexico    -0.023226560710016
+    Attrib Country/Region=Moldova    -0.017047431915670857
+    Attrib Country/Region=Monaco    -0.017798879441934378
+    Attrib Country/Region=Mongolia    0.03668350347817743
+    Attrib Country/Region=Montenegro    7.986929591146068E-6
+    Attrib Country/Region=Morocco    0.028920595385797405
+    Attrib Country/Region=Mozambique    -0.03180277973620607
+    Attrib Country/Region=Namibia    0.056546334718091625
+    Attrib Country/Region=Nepal    -0.028385915804420844
+    Attrib Country/Region=Netherlands    0.044080669083445954
+    Attrib Country/Region=New Zealand    0.03569253746471734
+    Attrib Country/Region=Nicaragua    0.026452070531411413
+    Attrib Country/Region=Niger    0.025755164508413305
+    Attrib Country/Region=Nigeria    -0.0060788689755761575
+    Attrib Country/Region=North Macedonia    0.05260069537194987
+    Attrib Country/Region=Norway    -0.006701587982792567
+    Attrib Country/Region=Oman    -0.03419300142859229
+    Attrib Country/Region=Pakistan    0.029508076806101857
+    Attrib Country/Region=Panama    -0.009184332052974283
+    Attrib Country/Region=Papua New Guinea    0.0317280594960253
+    Attrib Country/Region=Paraguay    0.01568534163743832
+    Attrib Country/Region=Peru    -0.04317283485289103
+    Attrib Country/Region=Philippines    0.051746404639370545
+    Attrib Country/Region=Poland    0.03824919770588082
+    Attrib Country/Region=Portugal    0.014862163093282591
+    Attrib Country/Region=Qatar    -0.017539448109327047
+    Attrib Country/Region=Romania    0.0032332416529768904
+    Attrib Country/Region=Russia    0.02695285666633695
+    Attrib Country/Region=Rwanda    0.0012749457234110264
+    Attrib Country/Region=Saint Kitts and Nevis    0.048492011052865304
+    Attrib Country/Region=Saint Lucia    0.01694702023584942
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.028150303446823854
+    Attrib Country/Region=San Marino    0.0509005927351124
+    Attrib Country/Region=Sao Tome and Principe    0.0013034799060889224
+    Attrib Country/Region=Saudi Arabia    0.012738892549719683
+    Attrib Country/Region=Senegal    0.007648309405345618
+    Attrib Country/Region=Serbia    0.06066437717637604
+    Attrib Country/Region=Seychelles    0.0040989080933348234
+    Attrib Country/Region=Sierra Leone    0.06337555584307326
+    Attrib Country/Region=Singapore    0.06017503262103643
+    Attrib Country/Region=Slovakia    -0.020827338646541096
+    Attrib Country/Region=Slovenia    0.032109648775841916
+    Attrib Country/Region=Somalia    0.010957103897536761
+    Attrib Country/Region=South Africa    -0.04027481090162679
+    Attrib Country/Region=South Sudan    0.03393750938715578
+    Attrib Country/Region=Spain    -0.008767936437780339
+    Attrib Country/Region=Sri Lanka    0.051792290635028056
+    Attrib Country/Region=Sudan    0.038015959685857074
+    Attrib Country/Region=Suriname    0.04348740963371709
+    Attrib Country/Region=Sweden    0.015997668216852317
+    Attrib Country/Region=Switzerland    0.040988180466056394
+    Attrib Country/Region=Syria    -0.021360701121514235
+    Attrib Country/Region=Taiwan*    0.0516519838533433
+    Attrib Country/Region=Tajikistan    0.015190749500898479
+    Attrib Country/Region=Tanzania    0.04225201750787061
+    Attrib Country/Region=Thailand    -0.023182118014909527
+    Attrib Country/Region=Timor-Leste    -0.01873932748027907
+    Attrib Country/Region=Togo    -0.024109776293648875
+    Attrib Country/Region=Trinidad and Tobago    -0.028273037194378944
+    Attrib Country/Region=Tunisia    0.035793441251021484
+    Attrib Country/Region=Turkey    0.017360208985968618
+    Attrib Country/Region=US    0.011996521538620917
+    Attrib Country/Region=Uganda    0.0573146137853928
+    Attrib Country/Region=Ukraine    0.001489530296816838
+    Attrib Country/Region=United Arab Emirates    0.046130364060685776
+    Attrib Country/Region=United Kingdom    -0.007628212986387085
+    Attrib Country/Region=Uruguay    -0.025030417169246023
+    Attrib Country/Region=Uzbekistan    0.04275866268676574
+    Attrib Country/Region=Venezuela    0.052033127512279155
+    Attrib Country/Region=Vietnam    -0.00424580677438115
+    Attrib Country/Region=West Bank and Gaza    0.04299047121665041
+    Attrib Country/Region=Western Sahara    -0.004326744395065883
+    Attrib Country/Region=Yemen    0.028202434924912333
+    Attrib Country/Region=Zambia    -0.02148987816036174
+    Attrib Country/Region=Zimbabwe    -0.026794382192960868
+    Attrib Lat    -0.03967007212927511
+    Attrib Long    -0.034527438802655255
+    Attrib Dia -258    -0.028989317008655355
+    Attrib Dia -257    0.039730193804777096
+    Attrib Dia -256    -0.0033776111859856977
+    Attrib Dia -255    0.03983756750135404
+    Attrib Dia -254    0.04064124518161645
+    Attrib Dia -253    0.05462145135999173
+    Attrib Dia -252    0.020604728960282547
+    Attrib Dia -251    -0.035411216899120856
+    Attrib Dia -250    0.03339355859357296
+    Attrib Dia -249    -0.018560552084534068
+    Attrib Dia -248    -0.02126960339548339
+    Attrib Dia -247    0.033420525900710145
+    Attrib Dia -246    0.037462021407152345
+    Attrib Dia -245    -0.024303394243565743
+    Attrib Dia -244    -0.011451668006156126
+    Attrib Dia -243    -0.015236074160828582
+    Attrib Dia -242    0.012559681591814325
+    Attrib Dia -241    -0.03685289348905072
+    Attrib Dia -240    -0.03531956901019083
+    Attrib Dia -239    -0.029407822123974844
+    Attrib Dia -238    0.007228867685680953
+    Attrib Dia -237    -0.031841561392091294
+    Attrib Dia -236    0.019182882875475187
+    Attrib Dia -235    0.023586722104610953
+    Attrib Dia -234    0.054610816309790526
+    Attrib Dia -233    -0.0327590549634174
+    Attrib Dia -232    -1.4543802380885974E-4
+    Attrib Dia -231    -0.004855725746797144
+    Attrib Dia -230    -0.005706838778149704
+    Attrib Dia -229    0.0074814960091592435
+    Attrib Dia -228    -0.020208221498262343
+    Attrib Dia -227    0.010417070394700967
+    Attrib Dia -226    0.04571476346242443
+    Attrib Dia -225    0.0432200855232796
+    Attrib Dia -224    0.0424431312145554
+    Attrib Dia -223    -0.03580239138548966
+    Attrib Dia -222    -0.03528180373233851
+    Attrib Dia -221    0.010493297323059342
+    Attrib Dia -220    0.0130405726333721
+    Attrib Dia -219    -0.03914004291956882
+    Attrib Dia -218    0.0486069782435017
+    Attrib Dia -217    -0.02230135364459358
+    Attrib Dia -216    -0.02658226620792813
+    Attrib Dia -215    -0.014650305486870371
+    Attrib Dia -214    0.017484578284444805
+    Attrib Dia -213    -0.016541625370414367
+    Attrib Dia -212    -0.03897485031245484
+    Attrib Dia -211    -0.02110561214015408
+    Attrib Dia -210    -0.009960423089116613
+    Attrib Dia -209    -0.0018026820586239387
+    Attrib Dia -208    -0.005894420310964744
+    Attrib Dia -207    -0.019089223172105603
+    Attrib Dia -206    -0.010104883555043489
+    Attrib Dia -205    0.024232077059999187
+    Attrib Dia -204    -0.014763155487363266
+    Attrib Dia -203    -0.0036130422623655294
+    Attrib Dia -202    -0.03306796048140582
+    Attrib Dia -201    -0.01909400253405008
+    Attrib Dia -200    0.007700907343920847
+    Attrib Dia -199    0.031718446798744956
+    Attrib Dia -198    -0.013476607298281856
+    Attrib Dia -197    0.007538855807714171
+    Attrib Dia -196    0.04246951659169681
+    Attrib Dia -195    -0.03663852906073733
+    Attrib Dia -194    -0.03681736168700491
+    Attrib Dia -193    -0.03372315734500479
+    Attrib Dia -192    0.02771931673588364
+    Attrib Dia -191    -0.004891480525724461
+    Attrib Dia -190    0.014774071389373792
+    Attrib Dia -189    -0.03856046195082421
+    Attrib Dia -188    -0.045655131671551254
+    Attrib Dia -187    -0.0122346958965706
+    Attrib Dia -186    -0.0490175333580268
+    Attrib Dia -185    0.02767915851903409
+    Attrib Dia -184    -0.045121173023162625
+    Attrib Dia -183    -0.02554986249521284
+    Attrib Dia -182    -0.053005006524269205
+    Attrib Dia -181    -0.009129583857635138
+    Attrib Dia -180    0.030709551954399054
+    Attrib Dia -179    0.0012713154739270181
+    Attrib Dia -178    0.03350905559228638
+    Attrib Dia -177    0.01498024711365238
+    Attrib Dia -176    0.028411878289005172
+    Attrib Dia -175    -0.050930772830158226
+    Attrib Dia -174    -0.03866649429218891
+    Attrib Dia -173    0.01931289712591587
+    Attrib Dia -172    0.002027244083320035
+    Attrib Dia -171    0.0346620179486956
+    Attrib Dia -170    -0.001760745372777004
+    Attrib Dia -169    -0.026358914058497128
+    Attrib Dia -168    0.018429663538951056
+    Attrib Dia -167    0.017980057802909972
+    Attrib Dia -166    0.022648156124601193
+    Attrib Dia -165    -0.006441117610681618
+    Attrib Dia -164    -0.03237474035743401
+    Attrib Dia -163    -0.024346216421630526
+    Attrib Dia -162    0.013480280578250717
+    Attrib Dia -161    0.0233633233324284
+    Attrib Dia -160    0.014222798541985708
+    Attrib Dia -159    0.016077030986626988
+    Attrib Dia -158    -0.01479605381882478
+    Attrib Dia -157    0.008212348887993904
+    Attrib Dia -156    -0.011127197799083855
+    Attrib Dia -155    -0.04771137388187181
+    Attrib Dia -154    0.006895332558902751
+    Attrib Dia -153    0.024671991374474834
+    Attrib Dia -152    0.0486388034345012
+    Attrib Dia -151    -0.026711223165151687
+    Attrib Dia -150    0.04943883571164318
+    Attrib Dia -149    -0.03270418100744617
+    Attrib Dia -148    -0.04385072241591368
+    Attrib Dia -147    -0.002257336765028726
+    Attrib Dia -146    -0.047495422884870575
+    Attrib Dia -145    -0.04275308229355581
+    Attrib Dia -144    0.012249813485654413
+    Attrib Dia -143    0.029513715660787785
+    Attrib Dia -142    -0.03291860742092936
+    Attrib Dia -141    -0.027118857103468022
+    Attrib Dia -140    -0.04841892733750704
+    Attrib Dia -139    -0.021324090380091643
+    Attrib Dia -138    0.026397185950278793
+    Attrib Dia -137    -0.019137478264751165
+    Attrib Dia -136    -0.04253629422013717
+    Attrib Dia -135    -0.04254453298336599
+    Attrib Dia -134    0.024523201419779504
+    Attrib Dia -133    -0.016967179925784726
+    Attrib Dia -132    -0.023451966141647424
+    Attrib Dia -131    0.008516673059043354
+    Attrib Dia -130    0.03233588650707035
+    Attrib Dia -129    -0.019985650648575357
+    Attrib Dia -128    0.021462216239287044
+    Attrib Dia -127    -0.02425156150583416
+    Attrib Dia -126    -0.03632626944879362
+    Attrib Dia -125    -0.002596448525998604
+    Attrib Dia -124    0.030563131435536236
+    Attrib Dia -123    -0.015838692315869027
+    Attrib Dia -122    0.012515363810653652
+    Attrib Dia -121    0.01040955843971713
+    Attrib Dia -120    0.013707930810902758
+    Attrib Dia -119    -0.049268507557500694
+    Attrib Dia -118    0.019119774971202097
+    Attrib Dia -117    -0.04682865874573096
+    Attrib Dia -116    -0.04662219419241347
+    Attrib Dia -115    0.012209643156306993
+    Attrib Dia -114    -0.011298946551081514
+    Attrib Dia -113    -0.002352659950556219
+    Attrib Dia -112    -0.05323853204387597
+    Attrib Dia -111    0.0197554535670675
+    Attrib Dia -110    -0.01959818471204131
+    Attrib Dia -109    0.042809667526397
+    Attrib Dia -108    -0.03136582507654542
+    Attrib Dia -107    0.01638595333251004
+    Attrib Dia -106    0.0033764082238131867
+    Attrib Dia -105    -0.04189541797088547
+    Attrib Dia -104    0.009670628634261495
+    Attrib Dia -103    -0.012582384156786792
+    Attrib Dia -102    0.010795260173004159
+    Attrib Dia -101    -0.010887983050900473
+    Attrib Dia -100    -0.006028225072645111
+    Attrib Dia -99    -0.05685055822154713
+    Attrib Dia -98    -0.04469899716703621
+    Attrib Dia -97    -0.05722276645669469
+    Attrib Dia -96    0.0112660995869103
+    Attrib Dia -95    -0.024466113970717095
+    Attrib Dia -94    -0.020378449719836215
+    Attrib Dia -93    0.03714727957203968
+    Attrib Dia -92    0.003785811316753611
+    Attrib Dia -91    0.005344330406501327
+    Attrib Dia -90    -0.051857125507475045
+    Attrib Dia -89    0.022292693606419264
+    Attrib Dia -88    -0.060650535285178477
+    Attrib Dia -87    0.025913985140863814
+    Attrib Dia -86    -0.012646770604292678
+    Attrib Dia -85    -0.055224266897538746
+    Attrib Dia -84    -0.04430813690445425
+    Attrib Dia -83    0.02823687474178844
+    Attrib Dia -82    -0.005176843777049972
+    Attrib Dia -81    -0.03777451523005312
+    Attrib Dia -80    0.015523089196699124
+    Attrib Dia -79    -0.011027013078153323
+    Attrib Dia -78    -0.007758796112161033
+    Attrib Dia -77    -0.014941448371663588
+    Attrib Dia -76    0.021531379143326132
+    Attrib Dia -75    -0.007828232038464947
+    Attrib Dia -74    -0.050997167965352364
+    Attrib Dia -73    -0.03923463243196189
+    Attrib Dia -72    -0.05639902228958392
+    Attrib Dia -71    -0.0504387278670461
+    Attrib Dia -70    -0.029007187676575504
+    Attrib Dia -69    -0.004586672037883791
+    Attrib Dia -68    -0.013093663899348318
+    Attrib Dia -67    -0.012011756779984058
+    Attrib Dia -66    -0.040741913126284654
+    Attrib Dia -65    -0.05116154935647739
+    Attrib Dia -64    -0.020044498866581804
+    Attrib Dia -63    -0.030046350910054982
+    Attrib Dia -62    -0.031389067491285144
+    Attrib Dia -61    -0.06882945068653538
+    Attrib Dia -60    0.0023696706833081613
+    Attrib Dia -59    0.021796518389931085
+    Attrib Dia -58    -0.04104649907096106
+    Attrib Dia -57    -0.03155211115943695
+    Attrib Dia -56    -0.02918953387284605
+    Attrib Dia -55    -0.049814742004795166
+    Attrib Dia -54    0.01721252138854138
+    Attrib Dia -53    0.008305249470357238
+    Attrib Dia -52    0.0030159707160394927
+    Attrib Dia -51    -0.06040599159628403
+    Attrib Dia -50    -0.05727126788099731
+    Attrib Dia -49    -0.0178863789988317
+    Attrib Dia -48    -0.063187401609087
+    Attrib Dia -47    -0.06163451081138097
+    Attrib Dia -46    -0.06508881580522093
+    Attrib Dia -45    -0.05377008645518217
+    Attrib Dia -44    -0.06814354640517238
+    Attrib Dia -43    -0.0402162883288436
+    Attrib Dia -42    -0.006925407144054169
+    Attrib Dia -41    -0.017084411616343637
+    Attrib Dia -40    0.0026132673331723012
+    Attrib Dia -39    -0.05914245070416148
+    Attrib Dia -38    -0.06827471559113607
+    Attrib Dia -37    -0.054447544222585714
+    Attrib Dia -36    -0.06746428062830477
+    Attrib Dia -35    -0.06739833239714053
+    Attrib Dia -34    -0.04346146421863839
+    Attrib Dia -33    0.005067426955093371
+    Attrib Dia -32    -6.730072374044429E-4
+    Attrib Dia -31    -0.08519966128250922
+    Attrib Dia -30    -0.016385457280118438
+    Attrib Dia -29    -0.03958408208291242
+    Attrib Dia -28    -0.0018380063545425135
+    Attrib Dia -27    -0.034901561323879636
+    Attrib Dia -26    -0.014085770944715862
+    Attrib Dia -25    -0.04602515983059348
+    Attrib Dia -24    -0.012900781553620722
+    Attrib Dia -23    -0.05724922270957262
+    Attrib Dia -22    -0.04654334572666288
+    Attrib Dia -21    -0.050122188342838686
+    Attrib Dia -20    -0.011302920463918198
+    Attrib Dia -19    -0.020120799835532464
+    Attrib Dia -18    -0.007619000891553793
+    Attrib Dia -17    -0.09257471231850499
+    Attrib Dia -16    -0.021994431520212576
+    Attrib Dia -15    -0.07739751341458845
+    Attrib Dia -14    -0.0324520549833192
+    Attrib Dia -13    -0.08084371357552977
+    Attrib Dia -12    -0.04459195506112371
+    Attrib Dia -11    -0.10515980677815467
+    Attrib Dia -10    -0.024666720516249668
+    Attrib Dia -9    -0.047581574191060225
+    Attrib Dia -8    -0.04947587541045831
+    Attrib Dia -7    -0.08382783503894714
+    Attrib Dia -6    -0.027655397562246654
+    Attrib Dia -5    -0.020376096373401976
+    Attrib Dia -4    -0.06922127081132697
+    Attrib Dia -3    -0.058963605070510905
+    Attrib Dia -2    -0.07399349898680656
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.019799798663953157
+    Attrib Province/State=Australian Capital Territory    0.014249407838495218
+    Attrib Province/State=New South Wales    0.028019821744369077
+    Attrib Province/State=Northern Territory    0.012494533154522284
+    Attrib Province/State=Queensland    -0.006514034048168879
+    Attrib Province/State=South Australia    0.029238600121013307
+    Attrib Province/State=Tasmania    -0.03479722217948252
+    Attrib Province/State=Victoria    -0.04710023642210826
+    Attrib Province/State=Western Australia    -0.015928590908986906
+    Attrib Province/State=Alberta    0.03494029824673479
+    Attrib Province/State=British Columbia    0.0027430155297981885
+    Attrib Province/State=Diamond Princess    -0.048138261090035515
+    Attrib Province/State=Grand Princess    -0.017379431725301788
+    Attrib Province/State=Manitoba    -0.04988163592471579
+    Attrib Province/State=New Brunswick    -0.03151243678736124
+    Attrib Province/State=Newfoundland and Labrador    -0.0117154678924147
+    Attrib Province/State=Northwest Territories    -0.007733614854996262
+    Attrib Province/State=Nova Scotia    0.017399544609608835
+    Attrib Province/State=Ontario    0.026445479834788822
+    Attrib Province/State=Prince Edward Island    0.026120281652997138
+    Attrib Province/State=Quebec    0.045563662657870624
+    Attrib Province/State=Saskatchewan    -0.036047377952282154
+    Attrib Province/State=Yukon    0.023452710042615153
+    Attrib Province/State=Anhui    0.02925098368059153
+    Attrib Province/State=Beijing    -0.006601437392738303
+    Attrib Province/State=Chongqing    -0.016592413202471148
+    Attrib Province/State=Fujian    0.03269810666523413
+    Attrib Province/State=Gansu    -0.014194325969779398
+    Attrib Province/State=Guangdong    0.032340346431369904
+    Attrib Province/State=Guangxi    -0.03457408771974489
+    Attrib Province/State=Guizhou    -0.03711738128863016
+    Attrib Province/State=Hainan    0.023565808538694298
+    Attrib Province/State=Hebei    0.03787605895567297
+    Attrib Province/State=Heilongjiang    0.004623843464911018
+    Attrib Province/State=Henan    -0.04806338334116703
+    Attrib Province/State=Hong Kong    -0.013658193250680952
+    Attrib Province/State=Hubei    0.02328647966975977
+    Attrib Province/State=Hunan    0.010426427459872066
+    Attrib Province/State=Inner Mongolia    -0.04141002206055512
+    Attrib Province/State=Jiangsu    0.0033105803185006673
+    Attrib Province/State=Jiangxi    -0.0391730191214881
+    Attrib Province/State=Jilin    -0.035383416374528964
+    Attrib Province/State=Liaoning    -0.011952159898504282
+    Attrib Province/State=Macau    -0.025002911661907868
+    Attrib Province/State=Ningxia    0.018287182349002087
+    Attrib Province/State=Qinghai    0.012685829451248794
+    Attrib Province/State=Shaanxi    -0.039050420752102966
+    Attrib Province/State=Shandong    0.019498509203802007
+    Attrib Province/State=Shanghai    -0.015880672676293936
+    Attrib Province/State=Shanxi    -0.03393128722619672
+    Attrib Province/State=Sichuan    -0.03835130484889057
+    Attrib Province/State=Tianjin    0.01661716423280437
+    Attrib Province/State=Tibet    -0.041935667938208215
+    Attrib Province/State=Xinjiang    0.012889363938194348
+    Attrib Province/State=Yunnan    -0.02306053423472356
+    Attrib Province/State=Zhejiang    -0.04479743901668501
+    Attrib Province/State=Faroe Islands    0.02618672968685069
+    Attrib Province/State=Greenland    0.03909137058988366
+    Attrib Province/State=French Guiana    -0.00943548392458564
+    Attrib Province/State=French Polynesia    0.033829927571330014
+    Attrib Province/State=Guadeloupe    -0.010527984723579638
+    Attrib Province/State=Martinique    -0.032472662325860664
+    Attrib Province/State=Mayotte    -0.03344760417855705
+    Attrib Province/State=New Caledonia    -0.025929531379883863
+    Attrib Province/State=Reunion    -0.0033112103075181015
+    Attrib Province/State=Saint Barthelemy    -0.027296998841190676
+    Attrib Province/State=Saint Pierre and Miquelon    -0.025959859248980432
+    Attrib Province/State=St Martin    -0.03218011947203964
+    Attrib Province/State=Aruba    -0.03133521457436936
+    Attrib Province/State=Bonaire, Sint Eustatius and Saba    -0.0013223639287862506
+    Attrib Province/State=Curacao    -0.0025665025907038825
+    Attrib Province/State=Sint Maarten    0.040115086980889
+    Attrib Province/State=Anguilla    -0.006561771954386649
+    Attrib Province/State=Bermuda    -0.022842835803725117
+    Attrib Province/State=British Virgin Islands    -0.024506155452519524
+    Attrib Province/State=Cayman Islands    -0.03797514144228263
+    Attrib Province/State=Channel Islands    -0.01727048166403194
+    Attrib Province/State=Falkland Islands (Malvinas)    -0.0423442342778274
+    Attrib Province/State=Gibraltar    0.018859009967296645
+    Attrib Province/State=Isle of Man    0.00727831822863368
+    Attrib Province/State=Montserrat    -0.003035546675381121
+    Attrib Province/State=Turks and Caicos Islands    -0.02101041828860246
+    Attrib Country/Region=Afghanistan    0.016147478718998964
+    Attrib Country/Region=Albania    0.03796693991880242
+    Attrib Country/Region=Algeria    5.417188948163232E-4
+    Attrib Country/Region=Andorra    -0.014569227311711081
+    Attrib Country/Region=Angola    0.01862800116875374
+    Attrib Country/Region=Antigua and Barbuda    -0.021175610457892905
+    Attrib Country/Region=Argentina    0.010340453834957828
+    Attrib Country/Region=Armenia    0.05197688762818896
+    Attrib Country/Region=Australia    -0.022521027244431845
+    Attrib Country/Region=Austria    0.04673608487218307
+    Attrib Country/Region=Azerbaijan    0.027256019645558092
+    Attrib Country/Region=Bahamas    0.0012273317185724707
+    Attrib Country/Region=Bahrain    0.029048998739360826
+    Attrib Country/Region=Bangladesh    0.0151445747719472
+    Attrib Country/Region=Barbados    0.008328119544730618
+    Attrib Country/Region=Belarus    0.04232312577447435
+    Attrib Country/Region=Belgium    -0.005891935694596365
+    Attrib Country/Region=Belize    -0.009231500854162706
+    Attrib Country/Region=Benin    0.042673175762541544
+    Attrib Country/Region=Bhutan    0.0096314224562248
+    Attrib Country/Region=Bolivia    -0.026021834302313675
+    Attrib Country/Region=Bosnia and Herzegovina    0.025502856213240402
+    Attrib Country/Region=Botswana    -0.004708020715726745
+    Attrib Country/Region=Brazil    0.03309577740705066
+    Attrib Country/Region=Brunei    0.017813491256644012
+    Attrib Country/Region=Bulgaria    -0.03772605603363147
+    Attrib Country/Region=Burkina Faso    -0.013605205876591428
+    Attrib Country/Region=Burma    -0.010109299770027256
+    Attrib Country/Region=Burundi    0.04816266642442636
+    Attrib Country/Region=Cabo Verde    0.04762963757007941
+    Attrib Country/Region=Cambodia    0.046355944170264
+    Attrib Country/Region=Cameroon    0.0038263965965027237
+    Attrib Country/Region=Canada    0.049096723486488705
+    Attrib Country/Region=Central African Republic    -0.03534352893027345
+    Attrib Country/Region=Chad    -0.02530225239519548
+    Attrib Country/Region=Chile    0.021688048353809258
+    Attrib Country/Region=China    0.031111823254010632
+    Attrib Country/Region=Colombia    -0.059186980554702014
+    Attrib Country/Region=Comoros    0.04954926711293121
+    Attrib Country/Region=Congo (Brazzaville)    -0.031083224246227004
+    Attrib Country/Region=Congo (Kinshasa)    0.05636999953221889
+    Attrib Country/Region=Costa Rica    -0.024881300856414976
+    Attrib Country/Region=Cote d Ivoire    -0.020695691273957786
+    Attrib Country/Region=Croatia    -0.01707053077694631
+    Attrib Country/Region=Cuba    0.05430101951260392
+    Attrib Country/Region=Cyprus    -0.013208935943069428
+    Attrib Country/Region=Czechia    0.048380718234391155
+    Attrib Country/Region=Denmark    0.058172283273171047
+    Attrib Country/Region=Diamond Princess    -0.02413864718837827
+    Attrib Country/Region=Djibouti    -0.007557871345682721
+    Attrib Country/Region=Dominica    0.035505033279012145
+    Attrib Country/Region=Dominican Republic    0.016356395783263703
+    Attrib Country/Region=Ecuador    0.00706728524040217
+    Attrib Country/Region=Egypt    0.03346968472145859
+    Attrib Country/Region=El Salvador    -0.007543435116055825
+    Attrib Country/Region=Equatorial Guinea    0.04508282383919503
+    Attrib Country/Region=Eritrea    -0.03810560267065202
+    Attrib Country/Region=Estonia    0.028634332047357932
+    Attrib Country/Region=Eswatini    0.03884473168811809
+    Attrib Country/Region=Ethiopia    -0.03378708120881823
+    Attrib Country/Region=Fiji    0.043590677799290364
+    Attrib Country/Region=Finland    0.038764653073774864
+    Attrib Country/Region=France    -0.011895903871078868
+    Attrib Country/Region=Gabon    0.03391393620273475
+    Attrib Country/Region=Gambia    0.008905270783430478
+    Attrib Country/Region=Georgia    -0.021449027991612437
+    Attrib Country/Region=Germany    -0.036214745431285826
+    Attrib Country/Region=Ghana    0.04037659399211268
+    Attrib Country/Region=Greece    0.04734820004147217
+    Attrib Country/Region=Grenada    0.04779664175077504
+    Attrib Country/Region=Guatemala    -0.03055336279562749
+    Attrib Country/Region=Guinea    -0.030576660818519077
+    Attrib Country/Region=Guinea-Bissau    0.06040619439914592
+    Attrib Country/Region=Guyana    0.0404496710140528
+    Attrib Country/Region=Haiti    -0.027253064867179162
+    Attrib Country/Region=Holy See    0.049165268778474644
+    Attrib Country/Region=Honduras    -0.032496784298858016
+    Attrib Country/Region=Hungary    0.045859744292596004
+    Attrib Country/Region=Iceland    -0.030967140913345414
+    Attrib Country/Region=India    -0.04358129447118772
+    Attrib Country/Region=Indonesia    -0.04776145308081435
+    Attrib Country/Region=Iran    -0.029813694752262424
+    Attrib Country/Region=Iraq    0.030941423681340084
+    Attrib Country/Region=Ireland    -0.029317417506585158
+    Attrib Country/Region=Israel    -0.04375760491271067
+    Attrib Country/Region=Italy    -0.006961047368765096
+    Attrib Country/Region=Jamaica    0.0322979327303572
+    Attrib Country/Region=Japan    0.016833367664182797
+    Attrib Country/Region=Jordan    -0.03549673096914441
+    Attrib Country/Region=Kazakhstan    0.00521148503927443
+    Attrib Country/Region=Kenya    0.05018014901976169
+    Attrib Country/Region=Korea, South    0.05916174713222896
+    Attrib Country/Region=Kosovo    -0.021776913478938908
+    Attrib Country/Region=Kuwait    -0.0016238043060043709
+    Attrib Country/Region=Kyrgyzstan    -0.03560816756379939
+    Attrib Country/Region=Laos    0.030189887913202047
+    Attrib Country/Region=Latvia    0.05350207449703252
+    Attrib Country/Region=Lebanon    -0.033443866746966464
+    Attrib Country/Region=Lesotho    -0.008253082864151948
+    Attrib Country/Region=Liberia    0.020936924807578094
+    Attrib Country/Region=Libya    -0.029520575237247344
+    Attrib Country/Region=Liechtenstein    0.038978088299575026
+    Attrib Country/Region=Lithuania    0.03664337002963885
+    Attrib Country/Region=Luxembourg    -0.010143193744826424
+    Attrib Country/Region=MS Zaandam    -0.0019456583529571878
+    Attrib Country/Region=Madagascar    -0.029036831843982886
+    Attrib Country/Region=Malawi    -0.025510232344724323
+    Attrib Country/Region=Malaysia    0.016427736245081894
+    Attrib Country/Region=Maldives    -0.032197032716045966
+    Attrib Country/Region=Mali    0.051049345022705396
+    Attrib Country/Region=Malta    0.00712556506307296
+    Attrib Country/Region=Mauritania    0.01708228327094685
+    Attrib Country/Region=Mauritius    0.03118237297516859
+    Attrib Country/Region=Mexico    -0.03676086086107521
+    Attrib Country/Region=Moldova    -0.030912358770746363
+    Attrib Country/Region=Monaco    0.008254406935392321
+    Attrib Country/Region=Mongolia    -0.0205270689044585
+    Attrib Country/Region=Montenegro    0.04229360701931423
+    Attrib Country/Region=Morocco    -0.030471830817929493
+    Attrib Country/Region=Mozambique    -0.030421542496753544
+    Attrib Country/Region=Namibia    0.001392950455186376
+    Attrib Country/Region=Nepal    0.0501333781797004
+    Attrib Country/Region=Netherlands    0.024918220895738117
+    Attrib Country/Region=New Zealand    -0.011333337512476345
+    Attrib Country/Region=Nicaragua    0.016871182085275285
+    Attrib Country/Region=Niger    -0.009896977223601484
+    Attrib Country/Region=Nigeria    0.011173268957684088
+    Attrib Country/Region=North Macedonia    0.019978124201232697
+    Attrib Country/Region=Norway    -0.02818439761649906
+    Attrib Country/Region=Oman    0.03843659625560452
+    Attrib Country/Region=Pakistan    -0.021695833143667912
+    Attrib Country/Region=Panama    0.023457445004939518
+    Attrib Country/Region=Papua New Guinea    -0.0315843568270157
+    Attrib Country/Region=Paraguay    -0.039658068399311686
+    Attrib Country/Region=Peru    0.04630671946539847
+    Attrib Country/Region=Philippines    0.044150545536312216
+    Attrib Country/Region=Poland    0.03635322872392384
+    Attrib Country/Region=Portugal    0.030085603735542674
+    Attrib Country/Region=Qatar    -0.0058080162607366745
+    Attrib Country/Region=Romania    0.05452278159644799
+    Attrib Country/Region=Russia    0.10026966163085961
+    Attrib Country/Region=Rwanda    -0.016797417899510374
+    Attrib Country/Region=Saint Kitts and Nevis    0.03690618222793322
+    Attrib Country/Region=Saint Lucia    0.027929154197436468
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.01453148072712671
+    Attrib Country/Region=San Marino    0.04222717443008659
+    Attrib Country/Region=Sao Tome and Principe    0.04659908979541925
+    Attrib Country/Region=Saudi Arabia    -0.019760253710294325
+    Attrib Country/Region=Senegal    -0.028075974680316838
+    Attrib Country/Region=Serbia    0.05459309261436284
+    Attrib Country/Region=Seychelles    0.016149377175167692
+    Attrib Country/Region=Sierra Leone    -0.020059906443468414
+    Attrib Country/Region=Singapore    -0.01607684605874804
+    Attrib Country/Region=Slovakia    0.014016200881863849
+    Attrib Country/Region=Slovenia    0.05865337955473534
+    Attrib Country/Region=Somalia    -0.03575158135603239
+    Attrib Country/Region=South Africa    0.012552601802979093
+    Attrib Country/Region=South Sudan    0.01879318621703188
+    Attrib Country/Region=Spain    0.0029351942478118547
+    Attrib Country/Region=Sri Lanka    0.016080395487611004
+    Attrib Country/Region=Sudan    0.018847801172047398
+    Attrib Country/Region=Suriname    0.020750802498949415
+    Attrib Country/Region=Sweden    -0.02766480363783679
+    Attrib Country/Region=Switzerland    0.05190572778843854
+    Attrib Country/Region=Syria    0.0024834704995154323
+    Attrib Country/Region=Taiwan*    -0.03507636521684417
+    Attrib Country/Region=Tajikistan    0.03834543590998841
+    Attrib Country/Region=Tanzania    -0.024175037410705858
+    Attrib Country/Region=Thailand    0.03738677595687734
+    Attrib Country/Region=Timor-Leste    -0.021046825432877524
+    Attrib Country/Region=Togo    0.03951405854913101
+    Attrib Country/Region=Trinidad and Tobago    0.01620059670039632
+    Attrib Country/Region=Tunisia    -0.0016741784961696714
+    Attrib Country/Region=Turkey    0.037563113270656825
+    Attrib Country/Region=US    -0.019880017649043694
+    Attrib Country/Region=Uganda    3.825395134410313E-4
+    Attrib Country/Region=Ukraine    0.015952588254191453
+    Attrib Country/Region=United Arab Emirates    -0.006397741687471674
+    Attrib Country/Region=United Kingdom    0.05141607819131583
+    Attrib Country/Region=Uruguay    0.018687487877017708
+    Attrib Country/Region=Uzbekistan    -0.025241712811854198
+    Attrib Country/Region=Venezuela    0.04079299231464645
+    Attrib Country/Region=Vietnam    0.05806553525553189
+    Attrib Country/Region=West Bank and Gaza    -0.02141395795937281
+    Attrib Country/Region=Western Sahara    -0.03557445319983048
+    Attrib Country/Region=Yemen    0.03553646047317936
+    Attrib Country/Region=Zambia    0.008862367917416484
+    Attrib Country/Region=Zimbabwe    0.042445442635569194
+    Attrib Lat    0.027942324714680448
+    Attrib Long    -0.03962374130817269
+    Attrib Dia -258    0.057716747643125836
+    Attrib Dia -257    0.019875264595681574
+    Attrib Dia -256    0.024121586762551515
+    Attrib Dia -255    -0.004235303204476462
+    Attrib Dia -254    0.038075123528272324
+    Attrib Dia -253    0.021832105493560162
+    Attrib Dia -252    0.03325360345283469
+    Attrib Dia -251    -0.02048282290055203
+    Attrib Dia -250    -0.023692277731168852
+    Attrib Dia -249    0.015008524423247705
+    Attrib Dia -248    0.014764281808187837
+    Attrib Dia -247    0.010057531923776111
+    Attrib Dia -246    -0.02677857511539065
+    Attrib Dia -245    -0.02056152203067747
+    Attrib Dia -244    0.05813319917695767
+    Attrib Dia -243    0.053334525577874894
+    Attrib Dia -242    -0.036096529065446775
+    Attrib Dia -241    0.05108942890316657
+    Attrib Dia -240    0.0030834714360934534
+    Attrib Dia -239    0.020958348348707776
+    Attrib Dia -238    1.876567992391147E-4
+    Attrib Dia -237    -0.033224730728632884
+    Attrib Dia -236    -0.006998662696089611
+    Attrib Dia -235    -0.028003260097329126
+    Attrib Dia -234    -0.004438007785706114
+    Attrib Dia -233    -0.027382751513302352
+    Attrib Dia -232    -0.03374964781311525
+    Attrib Dia -231    -0.008293639044401507
+    Attrib Dia -230    0.04451735023859689
+    Attrib Dia -229    -0.00678850245814589
+    Attrib Dia -228    0.019242978486163447
+    Attrib Dia -227    0.010485700833024287
+    Attrib Dia -226    0.050603888197989416
+    Attrib Dia -225    -0.02694107022407129
+    Attrib Dia -224    0.013783671314927987
+    Attrib Dia -223    -0.032317851058372475
+    Attrib Dia -222    -0.0265417261153283
+    Attrib Dia -221    -0.005845627836508314
+    Attrib Dia -220    0.03961706410421738
+    Attrib Dia -219    -0.007809460223984071
+    Attrib Dia -218    0.03293931308194803
+    Attrib Dia -217    0.04284202081837044
+    Attrib Dia -216    -0.013736066456859429
+    Attrib Dia -215    -0.030911881087369707
+    Attrib Dia -214    -0.009218586368254749
+    Attrib Dia -213    0.04773262939501318
+    Attrib Dia -212    0.024155663641354647
+    Attrib Dia -211    -0.0137215544139213
+    Attrib Dia -210    -0.035117861566787666
+    Attrib Dia -209    0.03657326930941488
+    Attrib Dia -208    0.043160497973994114
+    Attrib Dia -207    0.0066584973641009215
+    Attrib Dia -206    0.018984576261314712
+    Attrib Dia -205    -0.03588251246110634
+    Attrib Dia -204    0.049168060496511
+    Attrib Dia -203    -0.0036966231309944926
+    Attrib Dia -202    0.013193703760847005
+    Attrib Dia -201    0.04584303793779553
+    Attrib Dia -200    -0.022460435840159273
+    Attrib Dia -199    0.038526814249647844
+    Attrib Dia -198    -0.01074461355355737
+    Attrib Dia -197    -0.006778659474373479
+    Attrib Dia -196    0.030443023753124934
+    Attrib Dia -195    0.01933857703784484
+    Attrib Dia -194    0.03020608957717998
+    Attrib Dia -193    -0.00441730513307379
+    Attrib Dia -192    0.037856510296664925
+    Attrib Dia -191    0.02564923725197642
+    Attrib Dia -190    0.00792315136457583
+    Attrib Dia -189    -0.034730774895872216
+    Attrib Dia -188    0.0202723433403909
+    Attrib Dia -187    0.03089461692263256
+    Attrib Dia -186    -0.03301159994164735
+    Attrib Dia -185    0.024386185922846772
+    Attrib Dia -184    0.04450482949661216
+    Attrib Dia -183    0.03664958794755648
+    Attrib Dia -182    0.02429755773765673
+    Attrib Dia -181    -0.03742203141857375
+    Attrib Dia -180    -0.001387148238356492
+    Attrib Dia -179    -0.029352692171241278
+    Attrib Dia -178    0.03385805881307592
+    Attrib Dia -177    -0.0015617179425522758
+    Attrib Dia -176    -0.05200974427673285
+    Attrib Dia -175    -0.03134210182163382
+    Attrib Dia -174    0.023004681725897806
+    Attrib Dia -173    -0.03162771447202909
+    Attrib Dia -172    0.005058140830340545
+    Attrib Dia -171    0.020864153556118
+    Attrib Dia -170    0.018477617681302228
+    Attrib Dia -169    0.046450085019516696
+    Attrib Dia -168    0.02249576834090375
+    Attrib Dia -167    0.0016447262821113575
+    Attrib Dia -166    0.004608846958902441
+    Attrib Dia -165    -0.013165125425381154
+    Attrib Dia -164    0.003887753367872641
+    Attrib Dia -163    -0.02853775543951405
+    Attrib Dia -162    0.03363401144685311
+    Attrib Dia -161    0.047870688112962634
+    Attrib Dia -160    0.010274026545308651
+    Attrib Dia -159    0.02084953931121537
+    Attrib Dia -158    0.027997562205923896
+    Attrib Dia -157    -0.005091412560191151
+    Attrib Dia -156    0.031927785779870654
+    Attrib Dia -155    -0.04782493550585536
+    Attrib Dia -154    -5.814505131824394E-4
+    Attrib Dia -153    -1.28062735605203E-4
+    Attrib Dia -152    -0.01417080478315559
+    Attrib Dia -151    0.035809554771354946
+    Attrib Dia -150    0.03302817623939936
+    Attrib Dia -149    -0.04310630271032352
+    Attrib Dia -148    -5.153077156374308E-4
+    Attrib Dia -147    -0.04212812903502953
+    Attrib Dia -146    -0.020508339758250994
+    Attrib Dia -145    0.005432248004074436
+    Attrib Dia -144    0.034291411863779014
+    Attrib Dia -143    -0.026444919214543672
+    Attrib Dia -142    0.027534102098224635
+    Attrib Dia -141    0.009258920403724395
+    Attrib Dia -140    0.009392240892259877
+    Attrib Dia -139    0.01639947660878929
+    Attrib Dia -138    0.025608617779445664
+    Attrib Dia -137    -0.028770144681238854
+    Attrib Dia -136    -0.011018811278332274
+    Attrib Dia -135    -0.03152740305165023
+    Attrib Dia -134    -0.036476929162503655
+    Attrib Dia -133    -0.02490117230312228
+    Attrib Dia -132    0.004490018853836995
+    Attrib Dia -131    -0.01329176436377079
+    Attrib Dia -130    0.021755733575910898
+    Attrib Dia -129    0.03168345248355312
+    Attrib Dia -128    -0.004573042686736862
+    Attrib Dia -127    -0.006176322662484863
+    Attrib Dia -126    -0.05063264151732278
+    Attrib Dia -125    -0.019834573158422252
+    Attrib Dia -124    -0.03153719869279388
+    Attrib Dia -123    -0.011288535894236491
+    Attrib Dia -122    0.031589428440880946
+    Attrib Dia -121    0.03108574601329875
+    Attrib Dia -120    -0.012336872621628674
+    Attrib Dia -119    -0.0011504175395619797
+    Attrib Dia -118    -0.03224952546057804
+    Attrib Dia -117    -0.03046202700994966
+    Attrib Dia -116    0.034369894349296104
+    Attrib Dia -115    -8.322639272512951E-4
+    Attrib Dia -114    -0.012520211070395155
+    Attrib Dia -113    0.03166236776552738
+    Attrib Dia -112    -0.002691002155929931
+    Attrib Dia -111    -0.04859859235489245
+    Attrib Dia -110    -4.1332766738564665E-4
+    Attrib Dia -109    -0.04815826822371382
+    Attrib Dia -108    -0.021604995821662636
+    Attrib Dia -107    -0.03121983476909686
+    Attrib Dia -106    -0.02055386434818944
+    Attrib Dia -105    0.0321918829757072
+    Attrib Dia -104    0.0350119154471
+    Attrib Dia -103    0.0017607683140953084
+    Attrib Dia -102    -0.02470690020239248
+    Attrib Dia -101    0.022579694657475207
+    Attrib Dia -100    0.006022328897775711
+    Attrib Dia -99    -0.05466823507912458
+    Attrib Dia -98    0.031150870730711717
+    Attrib Dia -97    0.014799782870433853
+    Attrib Dia -96    0.012504370959522447
+    Attrib Dia -95    0.015661846716335352
+    Attrib Dia -94    0.0024873487022006556
+    Attrib Dia -93    -0.05810278158208983
+    Attrib Dia -92    -0.04375682023432967
+    Attrib Dia -91    0.006713153811613676
+    Attrib Dia -90    -0.0295903251312598
+    Attrib Dia -89    -0.04795292369028778
+    Attrib Dia -88    -0.009028415592056988
+    Attrib Dia -87    -0.06072582760733634
+    Attrib Dia -86    -0.06271078525333287
+    Attrib Dia -85    -0.03718430240871495
+    Attrib Dia -84    -0.02475212482081613
+    Attrib Dia -83    -0.06614362083811426
+    Attrib Dia -82    0.02783641312508503
+    Attrib Dia -81    -0.059994074536484546
+    Attrib Dia -80    -0.023216426661885826
+    Attrib Dia -79    -0.0038961505574611885
+    Attrib Dia -78    0.0010203654360633695
+    Attrib Dia -77    -0.05974626829511529
+    Attrib Dia -76    -0.0578213538480811
+    Attrib Dia -75    -0.015774862719482353
+    Attrib Dia -74    0.026233111905010688
+    Attrib Dia -73    -0.055017262354509266
+    Attrib Dia -72    0.0030629683115151653
+    Attrib Dia -71    -0.06757839502513018
+    Attrib Dia -70    -0.035589599130303934
+    Attrib Dia -69    -0.029144135057180214
+    Attrib Dia -68    -0.049251124031544
+    Attrib Dia -67    -0.05248489723340829
+    Attrib Dia -66    -0.052914682000290376
+    Attrib Dia -65    -0.019807025668524724
+    Attrib Dia -64    -0.033283955041910895
+    Attrib Dia -63    -0.04248867411757459
+    Attrib Dia -62    -0.05411262925332486
+    Attrib Dia -61    -0.06270657753775825
+    Attrib Dia -60    -0.02900859839311137
+    Attrib Dia -59    -0.014777752349667026
+    Attrib Dia -58    -0.023271278636718653
+    Attrib Dia -57    -0.05781597921659591
+    Attrib Dia -56    0.004828181187021462
+    Attrib Dia -55    -0.057070495783767224
+    Attrib Dia -54    -0.007399362782843405
+    Attrib Dia -53    -0.04402319673011402
+    Attrib Dia -52    -0.05240743522297429
+    Attrib Dia -51    -0.009609523039712067
+    Attrib Dia -50    -0.025501829984278322
+    Attrib Dia -49    -0.023183772100769388
+    Attrib Dia -48    -0.06682345964444639
+    Attrib Dia -47    -0.01945753832357729
+    Attrib Dia -46    -0.05221091171540427
+    Attrib Dia -45    -0.043441321768234
+    Attrib Dia -44    -0.08810171450035924
+    Attrib Dia -43    -0.0785373474770378
+    Attrib Dia -42    -0.08328208259220589
+    Attrib Dia -41    -0.04025856969604839
+    Attrib Dia -40    -0.015882877931566414
+    Attrib Dia -39    -0.08594842219115165
+    Attrib Dia -38    -0.07912504998812069
+    Attrib Dia -37    -0.05741035506136363
+    Attrib Dia -36    -0.08694011995448951
+    Attrib Dia -35    -0.005349965996911336
+    Attrib Dia -34    -0.09299508863012133
+    Attrib Dia -33    -0.09352743082165926
+    Attrib Dia -32    -0.08712117278795367
+    Attrib Dia -31    -0.007494235117660258
+    Attrib Dia -30    -0.08703600680027986
+    Attrib Dia -29    -0.09090075592650981
+    Attrib Dia -28    -0.10373874457748612
+    Attrib Dia -27    -0.06047975226915635
+    Attrib Dia -26    -0.040373585005110575
+    Attrib Dia -25    -0.052828191263319405
+    Attrib Dia -24    -0.03994364054276221
+    Attrib Dia -23    -0.0887602653648441
+    Attrib Dia -22    -0.03362382245379085
+    Attrib Dia -21    -0.08302423842733885
+    Attrib Dia -20    -0.01941413231400106
+    Attrib Dia -19    -0.04917272064865425
+    Attrib Dia -18    -0.10973115063949053
+    Attrib Dia -17    -0.06694167677706166
+    Attrib Dia -16    -0.10907011205627948
+    Attrib Dia -15    -0.06138923240536811
+    Attrib Dia -14    -0.06232211687137742
+    Attrib Dia -13    -0.04934250643334373
+    Attrib Dia -12    -0.08390509871542784
+    Attrib Dia -11    -0.10977725666578157
+    Attrib Dia -10    -0.026981158093385162
+    Attrib Dia -9    -0.045403484589783105
+    Attrib Dia -8    -0.05651790595169926
+    Attrib Dia -7    -0.06250755440446774
+    Attrib Dia -6    -0.09040526860409442
+    Attrib Dia -5    -0.09688290864593548
+    Attrib Dia -4    -0.08169354025474003
+    Attrib Dia -3    -0.08020700535778287
+    Attrib Dia -2    -0.050159410425320426
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.053030080873672676
+    Attrib Province/State=Australian Capital Territory    0.009344795837712097
+    Attrib Province/State=New South Wales    0.03201302186596032
+    Attrib Province/State=Northern Territory    0.006327694012392421
+    Attrib Province/State=Queensland    -0.0035592159752423497
+    Attrib Province/State=South Australia    0.019231697108956555
+    Attrib Province/State=Tasmania    0.04564355272085511
+    Attrib Province/State=Victoria    0.010135289149832681
+    Attrib Province/State=Western Australia    -0.010865968245358864
+    Attrib Province/State=Alberta    -0.017488801098469977
+    Attrib Province/State=British Columbia    -0.002605230003709058
+    Attrib Province/State=Diamond Princess    0.041305890977967503
+    Attrib Province/State=Grand Princess    -0.006655778461049715
+    Attrib Province/State=Manitoba    0.019602098747687192
+    Attrib Province/State=New Brunswick    -0.026090425433291545
+    Attrib Province/State=Newfoundland and Labrador    -0.046817820913518216
+    Attrib Province/State=Northwest Territories    -0.03003186645358742
+    Attrib Province/State=Nova Scotia    0.00855210879361186
+    Attrib Province/State=Ontario    0.030756961710578085
+    Attrib Province/State=Prince Edward Island    -0.02199844478153414
+    Attrib Province/State=Quebec    -0.05139047229548197
+    Attrib Province/State=Saskatchewan    -0.021211453638339327
+    Attrib Province/State=Yukon    -0.0018480628545865247
+    Attrib Province/State=Anhui    0.006400314017363058
+    Attrib Province/State=Beijing    -0.036154692814661916
+    Attrib Province/State=Chongqing    0.026755220497148364
+    Attrib Province/State=Fujian    0.0071365238366908
+    Attrib Province/State=Gansu    0.04075884750354712
+    Attrib Province/State=Guangdong    0.011849694458371402
+    Attrib Province/State=Guangxi    -0.0017463805647711357
+    Attrib Province/State=Guizhou    -0.02950512528671571
+    Attrib Province/State=Hainan    0.025974561550177837
+    Attrib Province/State=Hebei    -0.015306659865219284
+    Attrib Province/State=Heilongjiang    -0.04383194015289798
+    Attrib Province/State=Henan    0.02342605302905663
+    Attrib Province/State=Hong Kong    -0.0270941664744499
+    Attrib Province/State=Hubei    -0.03369014241812218
+    Attrib Province/State=Hunan    -0.025185339782756958
+    Attrib Province/State=Inner Mongolia    0.008630157781777892
+    Attrib Province/State=Jiangsu    0.010896363413407677
+    Attrib Province/State=Jiangxi    0.04225459358419805
+    Attrib Province/State=Jilin    0.030629798417289408
+    Attrib Province/State=Liaoning    0.024076192629926843
+    Attrib Province/State=Macau    0.012486144405329516
+    Attrib Province/State=Ningxia    5.974499618462814E-4
+    Attrib Province/State=Qinghai    0.02328968119456492
+    Attrib Province/State=Shaanxi    -0.03677474654895302
+    Attrib Province/State=Shandong    -0.030701311463719082
+    Attrib Province/State=Shanghai    -0.0014538084262090067
+    Attrib Province/State=Shanxi    -0.03386615622323558
+    Attrib Province/State=Sichuan    0.04489636673729036
+    Attrib Province/State=Tianjin    3.748658394532393E-4
+    Attrib Province/State=Tibet    0.02697208993644951
+    Attrib Province/State=Xinjiang    -0.0050517822708230934
+    Attrib Province/State=Yunnan    -0.021270242213205164
+    Attrib Province/State=Zhejiang    0.008379796347519513
+    Attrib Province/State=Faroe Islands    0.016681759603229502
+    Attrib Province/State=Greenland    0.039778827117629326
+    Attrib Province/State=French Guiana    0.01005497527000495
+    Attrib Province/State=French Polynesia    -0.01867202752542106
+    Attrib Province/State=Guadeloupe    -0.019022804957079243
+    Attrib Province/State=Martinique    0.014084400364308684
+    Attrib Province/State=Mayotte    0.02999313889489754
+    Attrib Province/State=New Caledonia    0.043255733329131234
+    Attrib Province/State=Reunion    0.02454269124458892
+    Attrib Province/State=Saint Barthelemy    0.03598047315788282
+    Attrib Province/State=Saint Pierre and Miquelon    0.04524414912050631
+    Attrib Province/State=St Martin    0.019002952839580076
+    Attrib Province/State=Aruba    0.041915221748089815
+    Attrib Province/State=Bonaire, Sint Eustatius and Saba    0.035936698195031404
+    Attrib Province/State=Curacao    -0.008411896841194741
+    Attrib Province/State=Sint Maarten    8.513779353727314E-4
+    Attrib Province/State=Anguilla    -0.018982161496712537
+    Attrib Province/State=Bermuda    0.0016276084418736128
+    Attrib Province/State=British Virgin Islands    0.033955062817412035
+    Attrib Province/State=Cayman Islands    -0.004123108517078244
+    Attrib Province/State=Channel Islands    0.030158067373990405
+    Attrib Province/State=Falkland Islands (Malvinas)    0.016018825144257565
+    Attrib Province/State=Gibraltar    0.026715831919657377
+    Attrib Province/State=Isle of Man    -0.0464111716453884
+    Attrib Province/State=Montserrat    -0.023500641097087348
+    Attrib Province/State=Turks and Caicos Islands    -0.04109544438939075
+    Attrib Country/Region=Afghanistan    0.018973030600031474
+    Attrib Country/Region=Albania    -0.03818844532837404
+    Attrib Country/Region=Algeria    0.015297326663367354
+    Attrib Country/Region=Andorra    0.014574916263948155
+    Attrib Country/Region=Angola    0.04848048912090336
+    Attrib Country/Region=Antigua and Barbuda    0.03684625304255616
+    Attrib Country/Region=Argentina    -0.013157674970162282
+    Attrib Country/Region=Armenia    -0.03649355544783839
+    Attrib Country/Region=Australia    0.021491821655277268
+    Attrib Country/Region=Austria    0.03848347066374681
+    Attrib Country/Region=Azerbaijan    0.045267148654573014
+    Attrib Country/Region=Bahamas    0.032167808276520694
+    Attrib Country/Region=Bahrain    7.837145139314892E-4
+    Attrib Country/Region=Bangladesh    -0.02784680081586156
+    Attrib Country/Region=Barbados    0.0429158412211851
+    Attrib Country/Region=Belarus    -0.006244075603337176
+    Attrib Country/Region=Belgium    0.03967648435163038
+    Attrib Country/Region=Belize    -0.02577930950239364
+    Attrib Country/Region=Benin    0.0031044271755983986
+    Attrib Country/Region=Bhutan    0.028479536447210956
+    Attrib Country/Region=Bolivia    0.0481721032697352
+    Attrib Country/Region=Bosnia and Herzegovina    0.018808933463782266
+    Attrib Country/Region=Botswana    0.023068358584167923
+    Attrib Country/Region=Brazil    -0.01424072560256231
+    Attrib Country/Region=Brunei    0.04637353500377636
+    Attrib Country/Region=Bulgaria    0.00936114501848426
+    Attrib Country/Region=Burkina Faso    -0.02871547592082536
+    Attrib Country/Region=Burma    0.04290360974241633
+    Attrib Country/Region=Burundi    0.009606960946934773
+    Attrib Country/Region=Cabo Verde    -0.016526384074803568
+    Attrib Country/Region=Cambodia    0.03641864271880077
+    Attrib Country/Region=Cameroon    0.011953183952855866
+    Attrib Country/Region=Canada    0.035248632116124654
+    Attrib Country/Region=Central African Republic    0.017432792588489093
+    Attrib Country/Region=Chad    -0.02646162683665688
+    Attrib Country/Region=Chile    0.02309511981819741
+    Attrib Country/Region=China    -0.02433142215721973
+    Attrib Country/Region=Colombia    0.004545684662140584
+    Attrib Country/Region=Comoros    0.022682757588087462
+    Attrib Country/Region=Congo (Brazzaville)    0.03526165863429271
+    Attrib Country/Region=Congo (Kinshasa)    0.01051080752529389
+    Attrib Country/Region=Costa Rica    0.005262554212816146
+    Attrib Country/Region=Cote d Ivoire    -0.012752352031707943
+    Attrib Country/Region=Croatia    -0.026075016218574727
+    Attrib Country/Region=Cuba    0.007393709644064171
+    Attrib Country/Region=Cyprus    0.01018833148004839
+    Attrib Country/Region=Czechia    -0.017877600648428846
+    Attrib Country/Region=Denmark    -0.01720940200662274
+    Attrib Country/Region=Diamond Princess    0.05159851793728717
+    Attrib Country/Region=Djibouti    0.0035535393220490815
+    Attrib Country/Region=Dominica    0.0016255447901486293
+    Attrib Country/Region=Dominican Republic    -0.04248232903453115
+    Attrib Country/Region=Ecuador    0.05001624585571209
+    Attrib Country/Region=Egypt    -0.036485692736355664
+    Attrib Country/Region=El Salvador    -0.030238801684808386
+    Attrib Country/Region=Equatorial Guinea    -0.03961800499539132
+    Attrib Country/Region=Eritrea    0.05451421450168836
+    Attrib Country/Region=Estonia    -0.004308033737886351
+    Attrib Country/Region=Eswatini    -0.003556636574726986
+    Attrib Country/Region=Ethiopia    -0.010860640096464688
+    Attrib Country/Region=Fiji    0.040710111126239595
+    Attrib Country/Region=Finland    -0.025668161506002315
+    Attrib Country/Region=France    0.039886330215749055
+    Attrib Country/Region=Gabon    0.019782696814736916
+    Attrib Country/Region=Gambia    -0.011771006503242675
+    Attrib Country/Region=Georgia    0.008731178133711673
+    Attrib Country/Region=Germany    -0.007060403357270827
+    Attrib Country/Region=Ghana    0.019396544275478787
+    Attrib Country/Region=Greece    -0.016404508843939326
+    Attrib Country/Region=Grenada    -0.023514021069933107
+    Attrib Country/Region=Guatemala    0.024624783497762762
+    Attrib Country/Region=Guinea    -0.01469674321668413
+    Attrib Country/Region=Guinea-Bissau    0.0014115670686868022
+    Attrib Country/Region=Guyana    0.03323561737854063
+    Attrib Country/Region=Haiti    0.053345587705593056
+    Attrib Country/Region=Holy See    0.0014430147893197609
+    Attrib Country/Region=Honduras    -0.02149860323966778
+    Attrib Country/Region=Hungary    -0.004723304869835919
+    Attrib Country/Region=Iceland    0.05500401258983131
+    Attrib Country/Region=India    -0.0850780437659286
+    Attrib Country/Region=Indonesia    0.035879786740967694
+    Attrib Country/Region=Iran    0.04060337811313536
+    Attrib Country/Region=Iraq    -0.022399343669560565
+    Attrib Country/Region=Ireland    0.025017124491938627
+    Attrib Country/Region=Israel    0.0311763085843526
+    Attrib Country/Region=Italy    0.03988625463114922
+    Attrib Country/Region=Jamaica    6.935098759430966E-4
+    Attrib Country/Region=Japan    0.006240983247029551
+    Attrib Country/Region=Jordan    -0.008891755872153817
+    Attrib Country/Region=Kazakhstan    0.029899031618282626
+    Attrib Country/Region=Kenya    0.008915082672704062
+    Attrib Country/Region=Korea, South    -0.014270947333298818
+    Attrib Country/Region=Kosovo    -0.011034868005507967
+    Attrib Country/Region=Kuwait    0.05283908154349733
+    Attrib Country/Region=Kyrgyzstan    0.01921943278747743
+    Attrib Country/Region=Laos    0.03732473597535517
+    Attrib Country/Region=Latvia    -0.005748381658814898
+    Attrib Country/Region=Lebanon    -0.0028278453766113322
+    Attrib Country/Region=Lesotho    0.016599150279832116
+    Attrib Country/Region=Liberia    0.042648920738631454
+    Attrib Country/Region=Libya    0.05337281553273312
+    Attrib Country/Region=Liechtenstein    0.049521674159981904
+    Attrib Country/Region=Lithuania    0.03737128007374759
+    Attrib Country/Region=Luxembourg    0.050528061525772924
+    Attrib Country/Region=MS Zaandam    0.046579731489322845
+    Attrib Country/Region=Madagascar    0.05718603326471267
+    Attrib Country/Region=Malawi    0.012985972890406204
+    Attrib Country/Region=Malaysia    -0.02443952783766473
+    Attrib Country/Region=Maldives    0.03593275143222277
+    Attrib Country/Region=Mali    0.003000851323086818
+    Attrib Country/Region=Malta    -0.007870789928919727
+    Attrib Country/Region=Mauritania    0.029497874961331494
+    Attrib Country/Region=Mauritius    0.012833928652899756
+    Attrib Country/Region=Mexico    0.013742452709708952
+    Attrib Country/Region=Moldova    -0.0066554481311786136
+    Attrib Country/Region=Monaco    -0.012814800137007074
+    Attrib Country/Region=Mongolia    0.02470172583001478
+    Attrib Country/Region=Montenegro    -0.028287513109390143
+    Attrib Country/Region=Morocco    -0.019219527091797233
+    Attrib Country/Region=Mozambique    0.04177584147200469
+    Attrib Country/Region=Namibia    0.043507424346488535
+    Attrib Country/Region=Nepal    0.03760621183244779
+    Attrib Country/Region=Netherlands    -0.034482885308317786
+    Attrib Country/Region=New Zealand    0.043803606875098065
+    Attrib Country/Region=Nicaragua    0.014911935409507884
+    Attrib Country/Region=Niger    -3.026568371117314E-4
+    Attrib Country/Region=Nigeria    0.008234318868852739
+    Attrib Country/Region=North Macedonia    0.005171397627827925
+    Attrib Country/Region=Norway    0.01222984292109456
+    Attrib Country/Region=Oman    -0.005090622961619984
+    Attrib Country/Region=Pakistan    0.0480643207666024
+    Attrib Country/Region=Panama    0.015109113035244155
+    Attrib Country/Region=Papua New Guinea    -0.027377235502790094
+    Attrib Country/Region=Paraguay    0.014392594402857258
+    Attrib Country/Region=Peru    0.01595219324185655
+    Attrib Country/Region=Philippines    0.04283770918203189
+    Attrib Country/Region=Poland    0.010302303622573781
+    Attrib Country/Region=Portugal    -0.01444107074844123
+    Attrib Country/Region=Qatar    0.054852119120302224
+    Attrib Country/Region=Romania    -6.185851698243042E-4
+    Attrib Country/Region=Russia    0.06195484546876307
+    Attrib Country/Region=Rwanda    0.053271896168872596
+    Attrib Country/Region=Saint Kitts and Nevis    0.013039924368683125
+    Attrib Country/Region=Saint Lucia    -0.0137229461222737
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.030643049298503353
+    Attrib Country/Region=San Marino    0.03355074602541735
+    Attrib Country/Region=Sao Tome and Principe    -0.02853899324429673
+    Attrib Country/Region=Saudi Arabia    0.00592394488283312
+    Attrib Country/Region=Senegal    -0.03891792425206583
+    Attrib Country/Region=Serbia    -0.02059776984521938
+    Attrib Country/Region=Seychelles    -0.02838803980145584
+    Attrib Country/Region=Sierra Leone    0.046131824537812796
+    Attrib Country/Region=Singapore    0.051904670274705494
+    Attrib Country/Region=Slovakia    0.03281444525602406
+    Attrib Country/Region=Slovenia    -0.02800912682390194
+    Attrib Country/Region=Somalia    -0.02645472890125585
+    Attrib Country/Region=South Africa    -0.027557139734040573
+    Attrib Country/Region=South Sudan    0.029420479024597355
+    Attrib Country/Region=Spain    0.024331174602552887
+    Attrib Country/Region=Sri Lanka    -0.03296824533338124
+    Attrib Country/Region=Sudan    -0.0209664490042374
+    Attrib Country/Region=Suriname    -0.025822365026703265
+    Attrib Country/Region=Sweden    0.020989698572145905
+    Attrib Country/Region=Switzerland    0.036612539441197786
+    Attrib Country/Region=Syria    -0.024530502310161025
+    Attrib Country/Region=Taiwan*    0.01877014800898527
+    Attrib Country/Region=Tajikistan    0.0039074085892602415
+    Attrib Country/Region=Tanzania    0.05221387193647981
+    Attrib Country/Region=Thailand    -0.012326281417217753
+    Attrib Country/Region=Timor-Leste    0.026613754583720114
+    Attrib Country/Region=Togo    0.039682043154908864
+    Attrib Country/Region=Trinidad and Tobago    0.03468631367917501
+    Attrib Country/Region=Tunisia    -9.941856919372751E-4
+    Attrib Country/Region=Turkey    -0.004854656690259667
+    Attrib Country/Region=US    -0.03212676190360881
+    Attrib Country/Region=Uganda    0.044613360856270844
+    Attrib Country/Region=Ukraine    0.006290219923665159
+    Attrib Country/Region=United Arab Emirates    0.016439801395669525
+    Attrib Country/Region=United Kingdom    -0.005777033827159075
+    Attrib Country/Region=Uruguay    0.05293903609656909
+    Attrib Country/Region=Uzbekistan    0.03146002273528937
+    Attrib Country/Region=Venezuela    0.006994599510056541
+    Attrib Country/Region=Vietnam    0.020294424188626748
+    Attrib Country/Region=West Bank and Gaza    0.005932136516323983
+    Attrib Country/Region=Western Sahara    -0.00180746845445367
+    Attrib Country/Region=Yemen    -0.021158624662423967
+    Attrib Country/Region=Zambia    0.030714244094753106
+    Attrib Country/Region=Zimbabwe    0.013520834774133907
+    Attrib Lat    0.033280956933592024
+    Attrib Long    0.01346197064226023
+    Attrib Dia -258    -0.004925465498205205
+    Attrib Dia -257    -0.02735617561670358
+    Attrib Dia -256    -0.04573717260947635
+    Attrib Dia -255    0.016800038952308007
+    Attrib Dia -254    0.03403425170466563
+    Attrib Dia -253    -0.0269986158413381
+    Attrib Dia -252    0.010855410545723742
+    Attrib Dia -251    -0.03152628943448499
+    Attrib Dia -250    -0.003230614512055735
+    Attrib Dia -249    -0.04507177510203375
+    Attrib Dia -248    0.03405230184014499
+    Attrib Dia -247    -0.01383263665169848
+    Attrib Dia -246    -0.05088706983683586
+    Attrib Dia -245    0.008346387531022861
+    Attrib Dia -244    0.03250934672956218
+    Attrib Dia -243    0.019137435010970632
+    Attrib Dia -242    -0.016984770342908836
+    Attrib Dia -241    -0.028183070709174494
+    Attrib Dia -240    0.0031896730395105347
+    Attrib Dia -239    -0.0251558722426164
+    Attrib Dia -238    0.0205096540536914
+    Attrib Dia -237    0.04712721868402937
+    Attrib Dia -236    -0.03572601438480833
+    Attrib Dia -235    -0.010441632200528704
+    Attrib Dia -234    -0.03220988095976524
+    Attrib Dia -233    -0.017394077791574074
+    Attrib Dia -232    0.017144293721146845
+    Attrib Dia -231    -2.6204475114250016E-4
+    Attrib Dia -230    0.004026111767188532
+    Attrib Dia -229    -0.022927571796677027
+    Attrib Dia -228    -0.009061167944469978
+    Attrib Dia -227    0.007620657599921202
+    Attrib Dia -226    -0.012654009345341319
+    Attrib Dia -225    -0.04734746166408806
+    Attrib Dia -224    1.3350288178351458E-4
+    Attrib Dia -223    0.020096805758037
+    Attrib Dia -222    0.037111571143372164
+    Attrib Dia -221    0.04393845113298924
+    Attrib Dia -220    0.04725057450568852
+    Attrib Dia -219    -0.023084686412081803
+    Attrib Dia -218    0.005446226743369658
+    Attrib Dia -217    -0.047586882932590224
+    Attrib Dia -216    0.03431896843323583
+    Attrib Dia -215    -0.023989045837642026
+    Attrib Dia -214    -0.016151097793748924
+    Attrib Dia -213    0.020584793715971068
+    Attrib Dia -212    0.00586581559285793
+    Attrib Dia -211    0.048162081428653664
+    Attrib Dia -210    0.001382550764820736
+    Attrib Dia -209    -0.011503539803235123
+    Attrib Dia -208    0.03252909246206688
+    Attrib Dia -207    0.02893875714202461
+    Attrib Dia -206    -0.040721761160647456
+    Attrib Dia -205    0.0066140881396658715
+    Attrib Dia -204    -0.03967879990081887
+    Attrib Dia -203    0.031173810902981477
+    Attrib Dia -202    0.015169182045063722
+    Attrib Dia -201    -0.006146428154728658
+    Attrib Dia -200    -0.0018057684195276
+    Attrib Dia -199    0.014235926147362722
+    Attrib Dia -198    -0.02957890935378607
+    Attrib Dia -197    -0.05298537599196583
+    Attrib Dia -196    -0.027314138485573063
+    Attrib Dia -195    0.019983008283210445
+    Attrib Dia -194    -0.04965453281871461
+    Attrib Dia -193    0.037010927248326594
+    Attrib Dia -192    0.017902257527566398
+    Attrib Dia -191    -0.05014080223590152
+    Attrib Dia -190    -0.04833827646739552
+    Attrib Dia -189    0.014153754869118603
+    Attrib Dia -188    0.00601344104443107
+    Attrib Dia -187    -0.03952126299411402
+    Attrib Dia -186    -0.011010072967169836
+    Attrib Dia -185    0.03388548684381928
+    Attrib Dia -184    0.027675710895745137
+    Attrib Dia -183    0.03805465573456637
+    Attrib Dia -182    0.04013311118418021
+    Attrib Dia -181    0.008512134437189626
+    Attrib Dia -180    -0.033642097569519296
+    Attrib Dia -179    -0.038158944808048795
+    Attrib Dia -178    -0.04407708700433815
+    Attrib Dia -177    0.0020989132607361527
+    Attrib Dia -176    0.008485410340534547
+    Attrib Dia -175    -0.04875953507154026
+    Attrib Dia -174    -0.05238799711611532
+    Attrib Dia -173    -0.03503341157103068
+    Attrib Dia -172    -0.05271965097241729
+    Attrib Dia -171    0.00218967221613759
+    Attrib Dia -170    0.004305749839470172
+    Attrib Dia -169    0.02195989722915385
+    Attrib Dia -168    0.008691498787659964
+    Attrib Dia -167    -0.04630601733908267
+    Attrib Dia -166    -0.033291033505088406
+    Attrib Dia -165    -0.026525187226496695
+    Attrib Dia -164    0.027086211140414113
+    Attrib Dia -163    0.017748951464670117
+    Attrib Dia -162    0.03841045089042033
+    Attrib Dia -161    0.016836797729949844
+    Attrib Dia -160    0.01773425551913889
+    Attrib Dia -159    0.02741097271444936
+    Attrib Dia -158    0.03608363575788377
+    Attrib Dia -157    0.04237481900828404
+    Attrib Dia -156    -0.048643688728167316
+    Attrib Dia -155    -0.042343433286281325
+    Attrib Dia -154    -0.009539095249161501
+    Attrib Dia -153    0.00916661107705299
+    Attrib Dia -152    0.011333414185058288
+    Attrib Dia -151    0.005360529897029498
+    Attrib Dia -150    -0.015047832092801252
+    Attrib Dia -149    -0.033879292692859476
+    Attrib Dia -148    0.030074661256606114
+    Attrib Dia -147    0.015498640424079555
+    Attrib Dia -146    -0.013186668013966124
+    Attrib Dia -145    0.03604347025243331
+    Attrib Dia -144    0.0319990830410776
+    Attrib Dia -143    -0.014816132598711333
+    Attrib Dia -142    -0.03925013206253832
+    Attrib Dia -141    0.046347655044119834
+    Attrib Dia -140    -0.020521711860648658
+    Attrib Dia -139    -0.022606026659251093
+    Attrib Dia -138    -0.028935736448907932
+    Attrib Dia -137    -0.04807291365863604
+    Attrib Dia -136    0.01165783043122191
+    Attrib Dia -135    0.03178312618789414
+    Attrib Dia -134    -0.023606377369828173
+    Attrib Dia -133    -0.03504547169591028
+    Attrib Dia -132    -0.01597027201134365
+    Attrib Dia -131    -0.03591021199403188
+    Attrib Dia -130    -0.008671788415276818
+    Attrib Dia -129    -0.02443487322631767
+    Attrib Dia -128    -0.028590314877099045
+    Attrib Dia -127    0.007360649543261371
+    Attrib Dia -126    0.0420845953298516
+    Attrib Dia -125    0.023408963561488853
+    Attrib Dia -124    -0.028932236244495584
+    Attrib Dia -123    -0.03814139201361267
+    Attrib Dia -122    -0.02689117536674996
+    Attrib Dia -121    -0.04426944677997306
+    Attrib Dia -120    -0.0497307727558197
+    Attrib Dia -119    -0.01640865732482953
+    Attrib Dia -118    -0.032849592704090484
+    Attrib Dia -117    -0.012658294892845345
+    Attrib Dia -116    0.016139226939015622
+    Attrib Dia -115    -0.035813104874839956
+    Attrib Dia -114    0.02909367085095591
+    Attrib Dia -113    -0.03768505749769177
+    Attrib Dia -112    -0.051812168344451924
+    Attrib Dia -111    0.02485972019633507
+    Attrib Dia -110    -0.05318317623859372
+    Attrib Dia -109    0.0044855731984345054
+    Attrib Dia -108    0.024279389652286945
+    Attrib Dia -107    -0.02695944704117289
+    Attrib Dia -106    -0.017547163667577872
+    Attrib Dia -105    0.029052188307260904
+    Attrib Dia -104    -0.011430592170375856
+    Attrib Dia -103    -0.049194549889570026
+    Attrib Dia -102    -0.028026300460404937
+    Attrib Dia -101    -0.012684599438092645
+    Attrib Dia -100    -0.04246312952628231
+    Attrib Dia -99    0.031898143987349845
+    Attrib Dia -98    0.003177758371275824
+    Attrib Dia -97    0.004607803851863371
+    Attrib Dia -96    0.03403451029940376
+    Attrib Dia -95    0.0143151615148874
+    Attrib Dia -94    0.024014676897259467
+    Attrib Dia -93    -0.02376427284295471
+    Attrib Dia -92    0.0017369716489944748
+    Attrib Dia -91    -0.012600148945725913
+    Attrib Dia -90    -0.01661132250324186
+    Attrib Dia -89    -0.012926754747846301
+    Attrib Dia -88    0.007696536185746955
+    Attrib Dia -87    -0.048854560665752535
+    Attrib Dia -86    -0.0579746365029229
+    Attrib Dia -85    0.021576684170943713
+    Attrib Dia -84    -0.010339928247080927
+    Attrib Dia -83    -5.299955163857604E-5
+    Attrib Dia -82    -3.064053671196517E-5
+    Attrib Dia -81    -0.053279661014458315
+    Attrib Dia -80    0.005801633292711822
+    Attrib Dia -79    -0.01009272206633054
+    Attrib Dia -78    -0.02426308037512421
+    Attrib Dia -77    -0.04641769413127947
+    Attrib Dia -76    0.027509741776154333
+    Attrib Dia -75    -0.04624919388967132
+    Attrib Dia -74    -0.057562328241935634
+    Attrib Dia -73    -0.03436837853246341
+    Attrib Dia -72    0.006149573963266153
+    Attrib Dia -71    0.030448437958101305
+    Attrib Dia -70    -0.03601475346290257
+    Attrib Dia -69    -0.06819402715838872
+    Attrib Dia -68    -0.004678814932731796
+    Attrib Dia -67    -0.0613921572092906
+    Attrib Dia -66    0.007428395546094122
+    Attrib Dia -65    -0.049989166575311744
+    Attrib Dia -64    0.006252537332931932
+    Attrib Dia -63    0.02597372256287079
+    Attrib Dia -62    -8.99907389516986E-4
+    Attrib Dia -61    -0.012784348743912754
+    Attrib Dia -60    0.01004106262075658
+    Attrib Dia -59    -0.0036277637856731116
+    Attrib Dia -58    -0.0204036524072703
+    Attrib Dia -57    -0.011855031527690981
+    Attrib Dia -56    -0.05634520497688758
+    Attrib Dia -55    -0.07328383590404873
+    Attrib Dia -54    -0.03537604925184047
+    Attrib Dia -53    -7.710554546477389E-4
+    Attrib Dia -52    -0.024774228076039358
+    Attrib Dia -51    -0.040971079429597684
+    Attrib Dia -50    -0.04404637134376326
+    Attrib Dia -49    -0.0376601643992528
+    Attrib Dia -48    -0.016129511418532267
+    Attrib Dia -47    -0.02706608895829281
+    Attrib Dia -46    -0.03737979037714254
+    Attrib Dia -45    -0.026425527591387884
+    Attrib Dia -44    -0.04191986610660789
+    Attrib Dia -43    -0.07759217562472982
+    Attrib Dia -42    -0.01689881055624212
+    Attrib Dia -41    -0.05917610035085589
+    Attrib Dia -40    -0.01935884147313322
+    Attrib Dia -39    -0.05620514629172983
+    Attrib Dia -38    -0.035816275455104574
+    Attrib Dia -37    -0.08718824746816035
+    Attrib Dia -36    -0.03379775452875371
+    Attrib Dia -35    -0.0691115708955265
+    Attrib Dia -34    -0.08657699576105714
+    Attrib Dia -33    0.006035452732052575
+    Attrib Dia -32    -0.05771123153212877
+    Attrib Dia -31    8.216873686230582E-4
+    Attrib Dia -30    -0.04970958941727598
+    Attrib Dia -29    -0.004824447585066864
+    Attrib Dia -28    -0.08332537579296788
+    Attrib Dia -27    -0.032142806873298214
+    Attrib Dia -26    -0.09728091172532514
+    Attrib Dia -25    -0.005978360148438481
+    Attrib Dia -24    -0.042406638549916664
+    Attrib Dia -23    -0.01818228687715791
+    Attrib Dia -22    -0.07157410689904342
+    Attrib Dia -21    -0.09758825146951615
+    Attrib Dia -20    -0.08333215276037025
+    Attrib Dia -19    -0.023123136906517145
+    Attrib Dia -18    -0.10032407236430034
+    Attrib Dia -17    -0.04655182562619886
+    Attrib Dia -16    -0.03182520092738198
+    Attrib Dia -15    -0.06493288417397709
+    Attrib Dia -14    -0.06045316380138105
+    Attrib Dia -13    -0.036079813713336885
+    Attrib Dia -12    -0.10025157804326694
+    Attrib Dia -11    -0.04375240007787863
+    Attrib Dia -10    -0.0992881700972391
+    Attrib Dia -9    -0.05575525904621762
+    Attrib Dia -8    -0.015986290362368774
+    Attrib Dia -7    -0.1072934802714981
+    Attrib Dia -6    -0.013817573594336587
+    Attrib Dia -5    -0.09799497071009736
+    Attrib Dia -4    -0.017054947619179292
+    Attrib Dia -3    -0.09899133778915323
+    Attrib Dia -2    -0.026918687354450806
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.01296011582967176
+    Attrib Province/State=Australian Capital Territory    -0.04942704169764125
+    Attrib Province/State=New South Wales    -0.046632750005216946
+    Attrib Province/State=Northern Territory    -0.030212870579249953
+    Attrib Province/State=Queensland    -0.04361078010062832
+    Attrib Province/State=South Australia    0.041619750270018754
+    Attrib Province/State=Tasmania    0.03516222209991811
+    Attrib Province/State=Victoria    -0.027414776446079647
+    Attrib Province/State=Western Australia    0.023644687432226252
+    Attrib Province/State=Alberta    0.039056978960042475
+    Attrib Province/State=British Columbia    -0.03945721324917562
+    Attrib Province/State=Diamond Princess    -0.04109415849092542
+    Attrib Province/State=Grand Princess    0.020162996902022202
+    Attrib Province/State=Manitoba    -0.030935617843459755
+    Attrib Province/State=New Brunswick    0.02851137766252066
+    Attrib Province/State=Newfoundland and Labrador    0.021882507547334566
+    Attrib Province/State=Northwest Territories    0.008555018290459892
+    Attrib Province/State=Nova Scotia    0.04531350651199636
+    Attrib Province/State=Ontario    0.04121704543890703
+    Attrib Province/State=Prince Edward Island    0.027604294898278366
+    Attrib Province/State=Quebec    0.008501241129397458
+    Attrib Province/State=Saskatchewan    -0.040705768957567626
+    Attrib Province/State=Yukon    -0.013818347526775139
+    Attrib Province/State=Anhui    0.03568134033868795
+    Attrib Province/State=Beijing    -0.006485448142592503
+    Attrib Province/State=Chongqing    0.010541194400874945
+    Attrib Province/State=Fujian    0.022264081936727763
+    Attrib Province/State=Gansu    0.012865273522367908
+    Attrib Province/State=Guangdong    -0.02534176422430985
+    Attrib Province/State=Guangxi    0.02599925323443461
+    Attrib Province/State=Guizhou    0.0061056486554605435
+    Attrib Province/State=Hainan    0.03347063744716695
+    Attrib Province/State=Hebei    0.025717255247158732
+    Attrib Province/State=Heilongjiang    0.01173735175567533
+    Attrib Province/State=Henan    -0.0038143056188605132
+    Attrib Province/State=Hong Kong    -0.03216982174513589
+    Attrib Province/State=Hubei    0.04362779909657092
+    Attrib Province/State=Hunan    0.024770173207909082
+    Attrib Province/State=Inner Mongolia    -0.016899573059394504
+    Attrib Province/State=Jiangsu    -0.006667989587924097
+    Attrib Province/State=Jiangxi    -0.02205454567333076
+    Attrib Province/State=Jilin    -0.03532690560347518
+    Attrib Province/State=Liaoning    -0.03782599963264045
+    Attrib Province/State=Macau    -0.024227729007935628
+    Attrib Province/State=Ningxia    -0.034887978915595176
+    Attrib Province/State=Qinghai    -0.026785375986779922
+    Attrib Province/State=Shaanxi    -0.03528153169485835
+    Attrib Province/State=Shandong    -0.045400996458799026
+    Attrib Province/State=Shanghai    -0.024865713765964758
+    Attrib Province/State=Shanxi    0.016966825901342956
+    Attrib Province/State=Sichuan    0.025951670264187727
+    Attrib Province/State=Tianjin    -0.013900741510894495
+    Attrib Province/State=Tibet    0.02908159598347423
+    Attrib Province/State=Xinjiang    -0.008175638360283361
+    Attrib Province/State=Yunnan    -0.029852032098525282
+    Attrib Province/State=Zhejiang    0.03214486659149195
+    Attrib Province/State=Faroe Islands    -0.047525594000265826
+    Attrib Province/State=Greenland    -0.00980067044036105
+    Attrib Province/State=French Guiana    -0.005971404583683116
+    Attrib Province/State=French Polynesia    -0.049528897806171465
+    Attrib Province/State=Guadeloupe    -0.05222646302566666
+    Attrib Province/State=Martinique    0.016208360295023348
+    Attrib Province/State=Mayotte    0.008532673824985983
+    Attrib Province/State=New Caledonia    0.011406046802233888
+    Attrib Province/State=Reunion    -0.016097530924869888
+    Attrib Province/State=Saint Barthelemy    -0.0020734196846472572
+    Attrib Province/State=Saint Pierre and Miquelon    -0.021492700127185804
+    Attrib Province/State=St Martin    -0.024747712614041007
+    Attrib Province/State=Aruba    0.02609584831783761
+    Attrib Province/State=Bonaire, Sint Eustatius and Saba    0.027611857214040414
+    Attrib Province/State=Curacao    -0.006884789892193368
+    Attrib Province/State=Sint Maarten    -0.04580175868835724
+    Attrib Province/State=Anguilla    0.0485810850848478
+    Attrib Province/State=Bermuda    -0.035534841965092656
+    Attrib Province/State=British Virgin Islands    -0.03426610795050078
+    Attrib Province/State=Cayman Islands    -0.002665340688837857
+    Attrib Province/State=Channel Islands    -0.03135291972102432
+    Attrib Province/State=Falkland Islands (Malvinas)    -0.03641934036679853
+    Attrib Province/State=Gibraltar    -0.03286680420263457
+    Attrib Province/State=Isle of Man    0.036027594606320545
+    Attrib Province/State=Montserrat    -0.008551166727006869
+    Attrib Province/State=Turks and Caicos Islands    0.030193404268195095
+    Attrib Country/Region=Afghanistan    0.012808903842862901
+    Attrib Country/Region=Albania    0.052050367725036406
+    Attrib Country/Region=Algeria    -0.014839459532880869
+    Attrib Country/Region=Andorra    -0.011364370716033358
+    Attrib Country/Region=Angola    -0.04335766200670152
+    Attrib Country/Region=Antigua and Barbuda    0.00337133905729101
+    Attrib Country/Region=Argentina    -0.015114963347362594
+    Attrib Country/Region=Armenia    -0.023579042111292543
+    Attrib Country/Region=Australia    0.05640019711296723
+    Attrib Country/Region=Austria    -0.04010030086184882
+    Attrib Country/Region=Azerbaijan    -0.04268605540039817
+    Attrib Country/Region=Bahamas    -8.405752429562142E-4
+    Attrib Country/Region=Bahrain    0.010328386413874995
+    Attrib Country/Region=Bangladesh    -0.02537747576903684
+    Attrib Country/Region=Barbados    -0.019955323893532932
+    Attrib Country/Region=Belarus    0.03902720520601615
+    Attrib Country/Region=Belgium    -0.004707285745477311
+    Attrib Country/Region=Belize    0.04326769990893804
+    Attrib Country/Region=Benin    0.016574786674045584
+    Attrib Country/Region=Bhutan    -0.02322702350735775
+    Attrib Country/Region=Bolivia    -0.020985006363203093
+    Attrib Country/Region=Bosnia and Herzegovina    0.038197617244118194
+    Attrib Country/Region=Botswana    0.006971484390818788
+    Attrib Country/Region=Brazil    0.0246911907142113
+    Attrib Country/Region=Brunei    -0.01739150127685437
+    Attrib Country/Region=Bulgaria    0.04651844065280409
+    Attrib Country/Region=Burkina Faso    -0.030522693839183556
+    Attrib Country/Region=Burma    -0.03971675275897609
+    Attrib Country/Region=Burundi    0.009529127432636534
+    Attrib Country/Region=Cabo Verde    -0.019060423499386615
+    Attrib Country/Region=Cambodia    -0.03954506750580932
+    Attrib Country/Region=Cameroon    0.03053563869081481
+    Attrib Country/Region=Canada    0.012814753382735647
+    Attrib Country/Region=Central African Republic    0.03735661577201182
+    Attrib Country/Region=Chad    0.023808906431004258
+    Attrib Country/Region=Chile    0.03545648181070449
+    Attrib Country/Region=China    0.01439741892310522
+    Attrib Country/Region=Colombia    -0.01328330990952973
+    Attrib Country/Region=Comoros    -0.03658340885122149
+    Attrib Country/Region=Congo (Brazzaville)    0.05104004717837791
+    Attrib Country/Region=Congo (Kinshasa)    -0.0020931111001434755
+    Attrib Country/Region=Costa Rica    -0.0028713764590847482
+    Attrib Country/Region=Cote d Ivoire    0.034581069592783516
+    Attrib Country/Region=Croatia    -0.00331031530124943
+    Attrib Country/Region=Cuba    0.04030832652545086
+    Attrib Country/Region=Cyprus    -0.009867096400529986
+    Attrib Country/Region=Czechia    0.02060281923216409
+    Attrib Country/Region=Denmark    -0.009675481414999425
+    Attrib Country/Region=Diamond Princess    -0.016318204849990466
+    Attrib Country/Region=Djibouti    0.03502126690826389
+    Attrib Country/Region=Dominica    -0.006993249277747948
+    Attrib Country/Region=Dominican Republic    -0.02192572437895612
+    Attrib Country/Region=Ecuador    0.04114872445033883
+    Attrib Country/Region=Egypt    0.005134181794255909
+    Attrib Country/Region=El Salvador    -0.029491478296565177
+    Attrib Country/Region=Equatorial Guinea    -0.03230775404899908
+    Attrib Country/Region=Eritrea    0.04207249371420534
+    Attrib Country/Region=Estonia    0.007272334996084892
+    Attrib Country/Region=Eswatini    -0.03014424078158496
+    Attrib Country/Region=Ethiopia    -0.012500668195308965
+    Attrib Country/Region=Fiji    0.02378573805173176
+    Attrib Country/Region=Finland    -0.016732485877684448
+    Attrib Country/Region=France    -0.004829256358793277
+    Attrib Country/Region=Gabon    -0.028238312428874986
+    Attrib Country/Region=Gambia    -0.011709954747111643
+    Attrib Country/Region=Georgia    -0.042724065430208284
+    Attrib Country/Region=Germany    0.004018713904771055
+    Attrib Country/Region=Ghana    -0.027457378544391006
+    Attrib Country/Region=Greece    0.03514282677642849
+    Attrib Country/Region=Grenada    0.02924406460077396
+    Attrib Country/Region=Guatemala    0.035612377524689834
+    Attrib Country/Region=Guinea    -0.02871880012429093
+    Attrib Country/Region=Guinea-Bissau    0.030435264483685918
+    Attrib Country/Region=Guyana    -0.01801601274025264
+    Attrib Country/Region=Haiti    -0.03926846596082091
+    Attrib Country/Region=Holy See    -0.003177041475941324
+    Attrib Country/Region=Honduras    -0.02651243372479454
+    Attrib Country/Region=Hungary    -0.015424968634958609
+    Attrib Country/Region=Iceland    -0.02696584360538819
+    Attrib Country/Region=India    -0.11541892297759537
+    Attrib Country/Region=Indonesia    0.03088652388124155
+    Attrib Country/Region=Iran    -0.009652869130425625
+    Attrib Country/Region=Iraq    0.03224786784803504
+    Attrib Country/Region=Ireland    -0.03124603395894897
+    Attrib Country/Region=Israel    0.02704517706929158
+    Attrib Country/Region=Italy    8.71927353610852E-4
+    Attrib Country/Region=Jamaica    -0.021363934781630862
+    Attrib Country/Region=Japan    -0.009203865769145586
+    Attrib Country/Region=Jordan    8.746649804579536E-4
+    Attrib Country/Region=Kazakhstan    0.017571033735648382
+    Attrib Country/Region=Kenya    0.04758248871678983
+    Attrib Country/Region=Korea, South    -0.03540816190391845
+    Attrib Country/Region=Kosovo    0.030336607849294032
+    Attrib Country/Region=Kuwait    -0.009865685516256687
+    Attrib Country/Region=Kyrgyzstan    0.034306844912712874
+    Attrib Country/Region=Laos    0.016207309471056277
+    Attrib Country/Region=Latvia    0.017567350045804033
+    Attrib Country/Region=Lebanon    -0.010097863512592115
+    Attrib Country/Region=Lesotho    0.024162470220753476
+    Attrib Country/Region=Liberia    0.05298723840510291
+    Attrib Country/Region=Libya    0.03636261333955219
+    Attrib Country/Region=Liechtenstein    -0.04399888128824206
+    Attrib Country/Region=Lithuania    -0.023465597844142407
+    Attrib Country/Region=Luxembourg    0.03442449184624545
+    Attrib Country/Region=MS Zaandam    0.04615189121147067
+    Attrib Country/Region=Madagascar    -0.0038712348820963394
+    Attrib Country/Region=Malawi    -0.01954860475355524
+    Attrib Country/Region=Malaysia    0.005374259314994387
+    Attrib Country/Region=Maldives    -0.02025811723856679
+    Attrib Country/Region=Mali    0.03350747017290807
+    Attrib Country/Region=Malta    0.009576084400003468
+    Attrib Country/Region=Mauritania    0.015492628710533212
+    Attrib Country/Region=Mauritius    0.004092840436816673
+    Attrib Country/Region=Mexico    -0.03064110635146911
+    Attrib Country/Region=Moldova    0.03400292544719339
+    Attrib Country/Region=Monaco    0.011040661962641148
+    Attrib Country/Region=Mongolia    -0.021144217652765744
+    Attrib Country/Region=Montenegro    0.0038558545027624277
+    Attrib Country/Region=Morocco    0.002020206394582145
+    Attrib Country/Region=Mozambique    0.006813053845873147
+    Attrib Country/Region=Namibia    9.015228248453351E-4
+    Attrib Country/Region=Nepal    0.051722628302425834
+    Attrib Country/Region=Netherlands    0.029499485198947194
+    Attrib Country/Region=New Zealand    0.02662148591165781
+    Attrib Country/Region=Nicaragua    0.052380808704061255
+    Attrib Country/Region=Niger    0.03806476363655723
+    Attrib Country/Region=Nigeria    -0.027748832732098636
+    Attrib Country/Region=North Macedonia    -0.026501477757888844
+    Attrib Country/Region=Norway    0.039746862102576955
+    Attrib Country/Region=Oman    0.025464098770905084
+    Attrib Country/Region=Pakistan    0.026979557172802142
+    Attrib Country/Region=Panama    0.027200678280811907
+    Attrib Country/Region=Papua New Guinea    0.040946022933193625
+    Attrib Country/Region=Paraguay    0.03521481251496388
+    Attrib Country/Region=Peru    0.02560503759309655
+    Attrib Country/Region=Philippines    0.005273282980270575
+    Attrib Country/Region=Poland    0.016158158258050392
+    Attrib Country/Region=Portugal    0.04603317640252618
+    Attrib Country/Region=Qatar    -0.0425431202375998
+    Attrib Country/Region=Romania    -0.022758395381539384
+    Attrib Country/Region=Russia    0.05074893641543001
+    Attrib Country/Region=Rwanda    -0.02886381486798568
+    Attrib Country/Region=Saint Kitts and Nevis    0.038465310152088684
+    Attrib Country/Region=Saint Lucia    0.024134430986237798
+    Attrib Country/Region=Saint Vincent and the Grenadines    0.02636919863079629
+    Attrib Country/Region=San Marino    -0.0382539938455889
+    Attrib Country/Region=Sao Tome and Principe    -0.0052601501451560095
+    Attrib Country/Region=Saudi Arabia    -0.024034664269978433
+    Attrib Country/Region=Senegal    -0.037037726222218514
+    Attrib Country/Region=Serbia    -0.045557995952983064
+    Attrib Country/Region=Seychelles    -0.013496465404196575
+    Attrib Country/Region=Sierra Leone    0.004646782626574184
+    Attrib Country/Region=Singapore    0.004917847461273437
+    Attrib Country/Region=Slovakia    0.034696577275878854
+    Attrib Country/Region=Slovenia    0.030756325492271128
+    Attrib Country/Region=Somalia    0.026747658367063262
+    Attrib Country/Region=South Africa    -0.01821859194609339
+    Attrib Country/Region=South Sudan    0.03420268807991713
+    Attrib Country/Region=Spain    7.835749450479503E-4
+    Attrib Country/Region=Sri Lanka    0.02453453095221831
+    Attrib Country/Region=Sudan    0.016710912852863854
+    Attrib Country/Region=Suriname    0.0013660883690970083
+    Attrib Country/Region=Sweden    -0.01695390250807049
+    Attrib Country/Region=Switzerland    -0.02981426898657571
+    Attrib Country/Region=Syria    -0.02038557926643267
+    Attrib Country/Region=Taiwan*    0.013757243778320044
+    Attrib Country/Region=Tajikistan    -0.03044694073754669
+    Attrib Country/Region=Tanzania    -0.027583363857952
+    Attrib Country/Region=Thailand    -0.04062896968685674
+    Attrib Country/Region=Timor-Leste    -0.04158106296765487
+    Attrib Country/Region=Togo    -0.02439852875222814
+    Attrib Country/Region=Trinidad and Tobago    0.003567500269248396
+    Attrib Country/Region=Tunisia    0.003114830276924854
+    Attrib Country/Region=Turkey    -0.03596275632435354
+    Attrib Country/Region=US    0.026614962778223072
+    Attrib Country/Region=Uganda    0.012190799501448796
+    Attrib Country/Region=Ukraine    -0.008444407995957954
+    Attrib Country/Region=United Arab Emirates    0.042003868307110656
+    Attrib Country/Region=United Kingdom    -0.0326789522106614
+    Attrib Country/Region=Uruguay    -0.011380669330749726
+    Attrib Country/Region=Uzbekistan    0.03322021113459072
+    Attrib Country/Region=Venezuela    0.034616147805345714
+    Attrib Country/Region=Vietnam    -0.01972162693575904
+    Attrib Country/Region=West Bank and Gaza    0.0377944914818177
+    Attrib Country/Region=Western Sahara    0.030255287229832263
+    Attrib Country/Region=Yemen    -0.021841620269547595
+    Attrib Country/Region=Zambia    -0.019383878341751083
+    Attrib Country/Region=Zimbabwe    0.052886408239931994
+    Attrib Lat    -0.03130260385554503
+    Attrib Long    -0.025424003289290044
+    Attrib Dia -258    0.012144597152009771
+    Attrib Dia -257    0.041240080503347036
+    Attrib Dia -256    -0.034180603664823915
+    Attrib Dia -255    -0.021307891559115673
+    Attrib Dia -254    0.029559699186649867
+    Attrib Dia -253    0.01239499547370731
+    Attrib Dia -252    -0.0321585158113415
+    Attrib Dia -251    -0.03597693945870052
+    Attrib Dia -250    -0.03422152025243154
+    Attrib Dia -249    0.041124295956256475
+    Attrib Dia -248    0.021078494003615143
+    Attrib Dia -247    -0.039389871344242454
+    Attrib Dia -246    0.04888661891900542
+    Attrib Dia -245    0.02784386776683934
+    Attrib Dia -244    -0.041407412781908313
+    Attrib Dia -243    0.038384268651750306
+    Attrib Dia -242    -0.03917181335383333
+    Attrib Dia -241    0.05126982700467108
+    Attrib Dia -240    0.04113101349863241
+    Attrib Dia -239    -0.02531955323664182
+    Attrib Dia -238    -0.04691612356834842
+    Attrib Dia -237    -0.006261706255019776
+    Attrib Dia -236    0.033193090756141505
+    Attrib Dia -235    -0.01868670998028895
+    Attrib Dia -234    -0.03812572624537831
+    Attrib Dia -233    -0.044004926629057764
+    Attrib Dia -232    0.008050458156936884
+    Attrib Dia -231    -0.035843374076185944
+    Attrib Dia -230    0.02048098541412636
+    Attrib Dia -229    -0.03954103167439672
+    Attrib Dia -228    0.011853897128716756
+    Attrib Dia -227    -0.02829293560295492
+    Attrib Dia -226    0.021440283663224407
+    Attrib Dia -225    0.051484295771655274
+    Attrib Dia -224    0.012660505703483666
+    Attrib Dia -223    0.050357082655874866
+    Attrib Dia -222    0.03991066610443406
+    Attrib Dia -221    0.03854206844558374
+    Attrib Dia -220    0.006778123890508216
+    Attrib Dia -219    -0.03786100315481241
+    Attrib Dia -218    -0.009448861727364219
+    Attrib Dia -217    -0.006837869520066565
+    Attrib Dia -216    -0.04431252554499872
+    Attrib Dia -215    0.03804447615198533
+    Attrib Dia -214    -0.04492036341627524
+    Attrib Dia -213    0.004204660672034116
+    Attrib Dia -212    -0.019454492161942675
+    Attrib Dia -211    0.03522176210350799
+    Attrib Dia -210    -0.014680364556418518
+    Attrib Dia -209    0.0175509497529593
+    Attrib Dia -208    0.04717565975724529
+    Attrib Dia -207    0.03807793230999376
+    Attrib Dia -206    -0.043052585620162516
+    Attrib Dia -205    0.035756816466915184
+    Attrib Dia -204    0.03489159336400619
+    Attrib Dia -203    -0.001341750828963773
+    Attrib Dia -202    0.024601833668618577
+    Attrib Dia -201    0.031211373515058292
+    Attrib Dia -200    -0.0018360246254732384
+    Attrib Dia -199    0.03155878369984317
+    Attrib Dia -198    6.965243184571146E-4
+    Attrib Dia -197    0.03286595325813505
+    Attrib Dia -196    -0.012988082421350765
+    Attrib Dia -195    0.004202064976788627
+    Attrib Dia -194    -0.02242913679086229
+    Attrib Dia -193    -0.009467033005660208
+    Attrib Dia -192    -0.059244806246114744
+    Attrib Dia -191    -0.06062502705306398
+    Attrib Dia -190    -0.028087295219410016
+    Attrib Dia -189    -0.0608079478617596
+    Attrib Dia -188    -0.040821887473208765
+    Attrib Dia -187    -0.047696807090219576
+    Attrib Dia -186    0.034655807662183694
+    Attrib Dia -185    -0.059896794444289414
+    Attrib Dia -184    0.021209000293464272
+    Attrib Dia -183    -0.045566065714686396
+    Attrib Dia -182    -0.014711250061978336
+    Attrib Dia -181    -0.025264393439348914
+    Attrib Dia -180    -0.030342495346378794
+    Attrib Dia -179    -0.03540974350118375
+    Attrib Dia -178    0.03405995839888918
+    Attrib Dia -177    -0.03548457766291455
+    Attrib Dia -176    -0.03123174073801964
+    Attrib Dia -175    0.008769607674294598
+    Attrib Dia -174    -0.009218815293644203
+    Attrib Dia -173    0.026200789108552565
+    Attrib Dia -172    0.024794119075197605
+    Attrib Dia -171    0.019688737670442692
+    Attrib Dia -170    0.00821116110807625
+    Attrib Dia -169    -0.05275812107767205
+    Attrib Dia -168    -0.010529697161686502
+    Attrib Dia -167    -4.5586978656516394E-4
+    Attrib Dia -166    0.01216964060131845
+    Attrib Dia -165    2.9932295852270124E-4
+    Attrib Dia -164    -0.0357130816610061
+    Attrib Dia -163    -0.043999696924687574
+    Attrib Dia -162    -0.01841077290045968
+    Attrib Dia -161    -0.023402708459901292
+    Attrib Dia -160    -0.04109836982615282
+    Attrib Dia -159    0.016045778372816823
+    Attrib Dia -158    -0.05487483418337552
+    Attrib Dia -157    0.003643484284273342
+    Attrib Dia -156    -0.03693593610171931
+    Attrib Dia -155    0.02537616679764394
+    Attrib Dia -154    -0.022462031054457498
+    Attrib Dia -153    0.027472455001334804
+    Attrib Dia -152    0.03487383663333225
+    Attrib Dia -151    -0.001667303433536293
+    Attrib Dia -150    -0.012044999582605409
+    Attrib Dia -149    -0.013471536268951652
+    Attrib Dia -148    0.016996420711566502
+    Attrib Dia -147    0.031098949348392132
+    Attrib Dia -146    0.012910893489714779
+    Attrib Dia -145    -0.028692429399704327
+    Attrib Dia -144    -0.05319857081822591
+    Attrib Dia -143    0.01850395096075888
+    Attrib Dia -142    -0.049272503841776824
+    Attrib Dia -141    -0.03232039336827293
+    Attrib Dia -140    0.03519612294537075
+    Attrib Dia -139    0.006870278478285605
+    Attrib Dia -138    -0.01039161377389463
+    Attrib Dia -137    0.006647583064737889
+    Attrib Dia -136    -0.04308218328142737
+    Attrib Dia -135    0.0055616520757461995
+    Attrib Dia -134    0.017813230703791587
+    Attrib Dia -133    7.008457137146437E-4
+    Attrib Dia -132    0.002168744933554432
+    Attrib Dia -131    0.027255614444996325
+    Attrib Dia -130    0.029185121498569593
+    Attrib Dia -129    0.03188874211654999
+    Attrib Dia -128    0.020043745694895577
+    Attrib Dia -127    -0.030366304429491474
+    Attrib Dia -126    -0.030164341030405408
+    Attrib Dia -125    -0.035923859508191866
+    Attrib Dia -124    -0.0049284226809333115
+    Attrib Dia -123    -0.03720084225535502
+    Attrib Dia -122    0.014576027969032757
+    Attrib Dia -121    0.0025661770446417966
+    Attrib Dia -120    -0.015703124125278183
+    Attrib Dia -119    -0.003927712682181051
+    Attrib Dia -118    -0.008098046635446337
+    Attrib Dia -117    -0.021649519369547506
+    Attrib Dia -116    -0.03744048644890768
+    Attrib Dia -115    0.014225487173565267
+    Attrib Dia -114    0.028472517234571983
+    Attrib Dia -113    0.04366399723590809
+    Attrib Dia -112    0.008731441997304667
+    Attrib Dia -111    0.012446486397229154
+    Attrib Dia -110    0.022820507068121765
+    Attrib Dia -109    -0.014494789376860941
+    Attrib Dia -108    0.004186084737426353
+    Attrib Dia -107    -0.005934895848576044
+    Attrib Dia -106    0.008737385851092497
+    Attrib Dia -105    0.009628015193127516
+    Attrib Dia -104    -0.007004153441234513
+    Attrib Dia -103    -0.04531108182462822
+    Attrib Dia -102    0.025226861634195463
+    Attrib Dia -101    -0.05397853492243802
+    Attrib Dia -100    0.007487283695603929
+    Attrib Dia -99    0.03896603023574589
+    Attrib Dia -98    -0.04335429633526683
+    Attrib Dia -97    0.012823952654821188
+    Attrib Dia -96    -0.056265252982668185
+    Attrib Dia -95    -0.019257081600961963
+    Attrib Dia -94    -0.02457689102798362
+    Attrib Dia -93    0.03502415281557075
+    Attrib Dia -92    0.028993795391915596
+    Attrib Dia -91    -0.03150374177447618
+    Attrib Dia -90    -0.031560911056599764
+    Attrib Dia -89    -0.036082833953758456
+    Attrib Dia -88    0.021371497990979166
+    Attrib Dia -87    0.007178144701071443
+    Attrib Dia -86    0.007425110121445821
+    Attrib Dia -85    -0.05657995096602431
+    Attrib Dia -84    0.02676676032245548
+    Attrib Dia -83    0.02571876559424197
+    Attrib Dia -82    -0.022286313538984887
+    Attrib Dia -81    -0.007288496581968102
+    Attrib Dia -80    -0.057021309260931824
+    Attrib Dia -79    -0.029165217989706053
+    Attrib Dia -78    -0.040692089726532224
+    Attrib Dia -77    0.016562328806771335
+    Attrib Dia -76    -0.019559276185654548
+    Attrib Dia -75    -0.03504769318712178
+    Attrib Dia -74    0.027139944130560364
+    Attrib Dia -73    -0.055737613127243534
+    Attrib Dia -72    -0.06328752162360203
+    Attrib Dia -71    -0.0596730163938147
+    Attrib Dia -70    0.00550215476096497
+    Attrib Dia -69    -0.01117463290286082
+    Attrib Dia -68    -0.03808017019544768
+    Attrib Dia -67    -0.025442369185731045
+    Attrib Dia -66    0.010424583517375217
+    Attrib Dia -65    -0.029899473599814833
+    Attrib Dia -64    -0.029589166967607886
+    Attrib Dia -63    0.02568532546069142
+    Attrib Dia -62    -0.026940318455295605
+    Attrib Dia -61    -0.008987780907030823
+    Attrib Dia -60    -0.0661843148134077
+    Attrib Dia -59    -0.05606629866718019
+    Attrib Dia -58    -0.05291368801903161
+    Attrib Dia -57    -0.043401068211689854
+    Attrib Dia -56    0.0015222602004838122
+    Attrib Dia -55    -0.03562017854758016
+    Attrib Dia -54    -0.025398469647829977
+    Attrib Dia -53    -0.05732905031303411
+    Attrib Dia -52    -0.006568431395086768
+    Attrib Dia -51    0.01763463964389139
+    Attrib Dia -50    -0.013309124206315913
+    Attrib Dia -49    -0.03854365031402169
+    Attrib Dia -48    -0.07958034250065861
+    Attrib Dia -47    -0.01685744889454966
+    Attrib Dia -46    0.010816283488296902
+    Attrib Dia -45    -0.043705708708383396
+    Attrib Dia -44    -0.00941882040799161
+    Attrib Dia -43    -0.004583361292967287
+    Attrib Dia -42    -0.047797441802514266
+    Attrib Dia -41    -0.049207268877107004
+    Attrib Dia -40    -0.015069347440101015
+    Attrib Dia -39    -0.04066300262085863
+    Attrib Dia -38    -0.0815566127996997
+    Attrib Dia -37    -0.08655609707208296
+    Attrib Dia -36    -0.01597139402759236
+    Attrib Dia -35    -0.030552589713792433
+    Attrib Dia -34    -0.030338979461145794
+    Attrib Dia -33    -0.04033268247428569
+    Attrib Dia -32    -0.03071188024560441
+    Attrib Dia -31    -0.06405926688354019
+    Attrib Dia -30    -0.029493697255763417
+    Attrib Dia -29    -0.006819175262697364
+    Attrib Dia -28    -0.081516206792917
+    Attrib Dia -27    -0.09132861034622163
+    Attrib Dia -26    -0.0529652709190633
+    Attrib Dia -25    -0.08512539136475811
+    Attrib Dia -24    -0.028557049133040205
+    Attrib Dia -23    -0.0386892586828833
+    Attrib Dia -22    -0.043710702520121804
+    Attrib Dia -21    -0.04089758802984618
+    Attrib Dia -20    -0.06621694497849352
+    Attrib Dia -19    -0.06740321377357497
+    Attrib Dia -18    -0.005979627727867846
+    Attrib Dia -17    -0.004049829473272714
+    Attrib Dia -16    -0.04206945897431673
+    Attrib Dia -15    -0.03957295931243228
+    Attrib Dia -14    -0.10478854829162805
+    Attrib Dia -13    -0.06130097145848465
+    Attrib Dia -12    -0.06114067942758661
+    Attrib Dia -11    -0.06986242568425198
+    Attrib Dia -10    -0.10472269802716125
+    Attrib Dia -9    -0.08198611277931102
+    Attrib Dia -8    -0.06897240566887486
+    Attrib Dia -7    -0.05000413892764612
+    Attrib Dia -6    -0.044156503265209666
+    Attrib Dia -5    -0.05543339222119142
+    Attrib Dia -4    -0.09193444023679913
+    Attrib Dia -3    -0.08444687757839348
+    Attrib Dia -2    -0.01746491695486635
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.03 seconds
+
+=== Predictions on test set ===
+
+inst#,actual,predicted,error
+1,?,126854.405,?
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances                  1     
+
